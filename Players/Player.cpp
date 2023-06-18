@@ -48,6 +48,7 @@ void Player::damage(int dmg) {
     if(dmg < 0){
         return;
     }
+
     if(this->m_HP - dmg < 0){
         this->m_HP = 0;
     } else {
@@ -100,3 +101,6 @@ int Player::getCoins() const {
     return m_coins;
 }
 
+void Player::wellFall(){
+    this->damage(10);
+}

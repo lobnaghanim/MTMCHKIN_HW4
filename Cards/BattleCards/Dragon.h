@@ -5,7 +5,7 @@
 class Dragon : public BattleCard{
 public:
     explicit Dragon(string name);
-
+    void applyEncounter(Player &player) override;
 };
 
 #endif

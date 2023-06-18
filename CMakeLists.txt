@@ -6,6 +6,8 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(.)
 
 add_executable(MTMCHKIN_HW4
+        utilities.cpp
+        utilities.h
         Players/Player.cpp
         Players/Player.h
         main.cpp
@@ -27,6 +29,12 @@ add_executable(MTMCHKIN_HW4
         Cards/BattleCards/Witch.h
         Cards/BattleCards/Dragon.cpp
         Cards/BattleCards/Dragon.h
+        Cards/MerchantCards/MerchantCard.cpp
+        Cards/MerchantCards/MerchantCard.h
+        Cards/TreasureCards/TreasureCard.cpp
+        Cards/TreasureCards/TreasureCard.h
+        Cards/WellCards/WellCard.cpp
+        Cards/WellCards/WellCard.h
         )
 
 #add_executable(MTMCHKIN_HW4

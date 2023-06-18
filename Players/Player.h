@@ -13,7 +13,6 @@ class Player {
     int m_force;
     HealthPoints m_HP;
     int m_coins;
-
 public:
     // public:
     explicit Player(const std::string &name);
@@ -33,7 +32,9 @@ public:
     int getLevel() const;
     int getCoins() const;
     string getName() const;
+
 //    friend std::ostream& operator<<(std::ostream& os, const Player& player);
+    virtual void wellFall();
 };
 
 #endif
