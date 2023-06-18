@@ -11,7 +11,7 @@
 #include "Cards/Barfight.h"
 #include "Cards/Dragon.h"
 #include "Cards/Mana.h"
-#include "Cards/Gremlin.h"
+#include "Cards/BattleCards/Gremlin.h"
 #include "Cards/Merchant.h"
 #include "Cards/Well.h"
 #include "Cards/Treasure.h"

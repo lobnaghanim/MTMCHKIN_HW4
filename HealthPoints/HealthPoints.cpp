@@ -1,6 +1,7 @@
 #include "HealthPoints.h"
 
 HealthPoints::HealthPoints(int max_HP) {
+    // @TODO: invalidArgument is thrown in Witch::ApplyEncounter
     if(max_HP <= 0){
         throw InvalidArgument();
     }

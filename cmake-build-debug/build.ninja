@@ -91,6 +91,41 @@ build CMakeFiles/MTMCHKIN_HW4.dir/Players/Warrior.cpp.obj: CXX_COMPILER__MTMCHKI
   OBJECT_DIR = CMakeFiles\MTMCHKIN_HW4.dir
   OBJECT_FILE_DIR = CMakeFiles\MTMCHKIN_HW4.dir\Players
 
+build CMakeFiles/MTMCHKIN_HW4.dir/Cards/Card.cpp.obj: CXX_COMPILER__MTMCHKIN_HW4_Debug C$:/Users/Ali$ Harbaji/Documents/GitHub/MTMCHKIN_HW4/Cards/Card.cpp || cmake_object_order_depends_target_MTMCHKIN_HW4
+  DEP_FILE = CMakeFiles\MTMCHKIN_HW4.dir\Cards\Card.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"C:/Users/Ali Harbaji/Documents/GitHub/MTMCHKIN_HW4/."
+  OBJECT_DIR = CMakeFiles\MTMCHKIN_HW4.dir
+  OBJECT_FILE_DIR = CMakeFiles\MTMCHKIN_HW4.dir\Cards
+
+build CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCards/Gremlin.cpp.obj: CXX_COMPILER__MTMCHKIN_HW4_Debug C$:/Users/Ali$ Harbaji/Documents/GitHub/MTMCHKIN_HW4/Cards/BattleCards/Gremlin.cpp || cmake_object_order_depends_target_MTMCHKIN_HW4
+  DEP_FILE = CMakeFiles\MTMCHKIN_HW4.dir\Cards\BattleCards\Gremlin.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"C:/Users/Ali Harbaji/Documents/GitHub/MTMCHKIN_HW4/."
+  OBJECT_DIR = CMakeFiles\MTMCHKIN_HW4.dir
+  OBJECT_FILE_DIR = CMakeFiles\MTMCHKIN_HW4.dir\Cards\BattleCards
+
+build CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCards/BattleCard.cpp.obj: CXX_COMPILER__MTMCHKIN_HW4_Debug C$:/Users/Ali$ Harbaji/Documents/GitHub/MTMCHKIN_HW4/Cards/BattleCards/BattleCard.cpp || cmake_object_order_depends_target_MTMCHKIN_HW4
+  DEP_FILE = CMakeFiles\MTMCHKIN_HW4.dir\Cards\BattleCards\BattleCard.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"C:/Users/Ali Harbaji/Documents/GitHub/MTMCHKIN_HW4/."
+  OBJECT_DIR = CMakeFiles\MTMCHKIN_HW4.dir
+  OBJECT_FILE_DIR = CMakeFiles\MTMCHKIN_HW4.dir\Cards\BattleCards
+
+build CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCards/Witch.cpp.obj: CXX_COMPILER__MTMCHKIN_HW4_Debug C$:/Users/Ali$ Harbaji/Documents/GitHub/MTMCHKIN_HW4/Cards/BattleCards/Witch.cpp || cmake_object_order_depends_target_MTMCHKIN_HW4
+  DEP_FILE = CMakeFiles\MTMCHKIN_HW4.dir\Cards\BattleCards\Witch.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"C:/Users/Ali Harbaji/Documents/GitHub/MTMCHKIN_HW4/."
+  OBJECT_DIR = CMakeFiles\MTMCHKIN_HW4.dir
+  OBJECT_FILE_DIR = CMakeFiles\MTMCHKIN_HW4.dir\Cards\BattleCards
+
+build CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCards/Dragon.cpp.obj: CXX_COMPILER__MTMCHKIN_HW4_Debug C$:/Users/Ali$ Harbaji/Documents/GitHub/MTMCHKIN_HW4/Cards/BattleCards/Dragon.cpp || cmake_object_order_depends_target_MTMCHKIN_HW4
+  DEP_FILE = CMakeFiles\MTMCHKIN_HW4.dir\Cards\BattleCards\Dragon.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"C:/Users/Ali Harbaji/Documents/GitHub/MTMCHKIN_HW4/."
+  OBJECT_DIR = CMakeFiles\MTMCHKIN_HW4.dir
+  OBJECT_FILE_DIR = CMakeFiles\MTMCHKIN_HW4.dir\Cards\BattleCards
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target MTMCHKIN_HW4
@@ -99,7 +134,7 @@ build CMakeFiles/MTMCHKIN_HW4.dir/Players/Warrior.cpp.obj: CXX_COMPILER__MTMCHKI
 #############################################
 # Link the executable MTMCHKIN_HW4.exe
 
-build MTMCHKIN_HW4.exe: CXX_EXECUTABLE_LINKER__MTMCHKIN_HW4_Debug CMakeFiles/MTMCHKIN_HW4.dir/Players/Player.cpp.obj CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.obj CMakeFiles/MTMCHKIN_HW4.dir/HealthPoints/HealthPoints.cpp.obj CMakeFiles/MTMCHKIN_HW4.dir/Players/Ninja.cpp.obj CMakeFiles/MTMCHKIN_HW4.dir/Players/Healer.cpp.obj CMakeFiles/MTMCHKIN_HW4.dir/Players/Warrior.cpp.obj
+build MTMCHKIN_HW4.exe: CXX_EXECUTABLE_LINKER__MTMCHKIN_HW4_Debug CMakeFiles/MTMCHKIN_HW4.dir/Players/Player.cpp.obj CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.obj CMakeFiles/MTMCHKIN_HW4.dir/HealthPoints/HealthPoints.cpp.obj CMakeFiles/MTMCHKIN_HW4.dir/Players/Ninja.cpp.obj CMakeFiles/MTMCHKIN_HW4.dir/Players/Healer.cpp.obj CMakeFiles/MTMCHKIN_HW4.dir/Players/Warrior.cpp.obj CMakeFiles/MTMCHKIN_HW4.dir/Cards/Card.cpp.obj CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCards/Gremlin.cpp.obj CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCards/BattleCard.cpp.obj CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCards/Witch.cpp.obj CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCards/Dragon.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\MTMCHKIN_HW4.dir

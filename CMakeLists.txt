@@ -17,6 +17,16 @@ add_executable(MTMCHKIN_HW4
         Players/Healer.cpp
         Players/Warrior.h
         Players/Warrior.cpp
+        Cards/Card.cpp
+        Cards/Card.h
+        Cards/BattleCards/Gremlin.cpp
+        Cards/BattleCards/Gremlin.h
+        Cards/BattleCards/BattleCard.cpp
+        Cards/BattleCards/BattleCard.h
+        Cards/BattleCards/Witch.cpp
+        Cards/BattleCards/Witch.h
+        Cards/BattleCards/Dragon.cpp
+        Cards/BattleCards/Dragon.h
         )
 
 #add_executable(MTMCHKIN_HW4
