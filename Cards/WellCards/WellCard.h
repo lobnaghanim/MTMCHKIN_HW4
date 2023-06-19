@@ -5,7 +5,7 @@
 class WellCard : public Card{
 public:
     explicit WellCard();
-    void applyEncounter(Player &player);
+    void applyEncounter(Player &player) override;
 };
 
 

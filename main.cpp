@@ -15,11 +15,19 @@
 #include "Cards/BarfightCards/BarfightCard.h"
 #include "Cards/ManaCards/ManaCard.h"
 
+#include "Mtmchkin.h"
+
 using namespace std;
 
 int main(){
 
+    Mtmchkin game("C:\\Users\\Ali Harbaji\\Documents\\GitHub\\MTMCHKIN_HW4\\deck.txt");
+//
+//    cout << game.m_players[0]->getName() << endl;
 
+
+//
+//
 //    Ninja ninja("Ninja");
 //    cout << ninja.getName() << endl;
 //    cout << ninja.getForce() << endl;
@@ -52,7 +60,7 @@ int main(){
 //    Healer healer("Healer");
 //    manaCard.applyEncounter(healer);
 //    cout << healer.getHP() << endl;
-
+//
 //    WellCard wellCard;
 //    wellCard.applyEncounter(ninja);
 //    cout << ninja.getHP() << endl;
@@ -67,8 +75,8 @@ int main(){
 //
 //    cout << ninja.getCoins() << endl;
 //
-//
-//
+
+
 //
 //    Warrior warrior("Warrior");
 //    BarfightCard barfightCard;
@@ -77,7 +85,7 @@ int main(){
 //    cout << ninja.getHP() << endl;
 //    cout << warrior.getName() << endl;
 //    cout << warrior.getHP() << endl;
-//
+
 //    ManaCard manaCard;
 //    manaCard.applyEncounter(ninja);
 //    cout << ninja.getHP() << endl;

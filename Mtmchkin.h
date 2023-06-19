@@ -2,6 +2,8 @@
 #define MTMCHKIN_H_
 
 #include <string>
+#include <vector>
+#include "Cards/Card.h"
 
 class Mtmchkin{
 
@@ -48,6 +50,10 @@ public:
     *          int - number of rounds played
     */
     int getNumberOfRounds() const;
+
+private:
+    std::vector<Player*> m_players;
+    std::vector<Card*> m_deck;
 };
 
 

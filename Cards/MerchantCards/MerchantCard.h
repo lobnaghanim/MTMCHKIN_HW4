@@ -6,7 +6,7 @@
 class MerchantCard : public Card{
 public:
     explicit MerchantCard();
-    void applyEncounter(Player &player);
+    void applyEncounter(Player &player) override;
 };
 
 

@@ -5,7 +5,7 @@
 class TreasureCard : public Card{
 public:
     explicit TreasureCard();
-    void applyEncounter(Player &player);
+    void applyEncounter(Player &player) override;
 };
 
 
