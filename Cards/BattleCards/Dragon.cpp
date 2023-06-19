@@ -1,6 +1,6 @@
 #include "Dragon.h"
 
-Dragon::Dragon(string name) : BattleCard(name, 25, 1000, 100) {}
+Dragon::Dragon() : BattleCard("Dragon", 25, 1000, 100) {}
 
 void Dragon::applyEncounter(Player &player) {
     if(isAWin(player, *this)){

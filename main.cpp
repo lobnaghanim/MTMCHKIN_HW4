@@ -12,6 +12,8 @@
 #include "Cards/MerchantCards/MerchantCard.h"
 #include "Cards/TreasureCards/TreasureCard.h"
 #include "Cards/WellCards/WellCard.h"
+#include "Cards/BarfightCards/BarfightCard.h"
+#include "Cards/ManaCards/ManaCard.h"
 
 using namespace std;
 
@@ -24,6 +26,69 @@ int main(){
     cout << ninja.getCoins() << endl;
     cout << ninja.getAttackStrength() << endl;
     cout << "------------------------------------" << endl;
+    Warrior warrior("Warrior");
+    cout << warrior.getName() << endl;
+    cout << warrior.getForce() << endl;
+    cout << warrior.getLevel() << endl;
+    cout << warrior.getHP() << endl;
+    cout << warrior.getCoins() << endl;
+    cout << warrior.getAttackStrength() << endl;
+    cout << "------------------------------------" << endl;
+
+    BarfightCard barfightCard;
+    barfightCard.applyEncounter(ninja);
+    cout << ninja.getHP() << endl;
+
+    barfightCard.applyEncounter(warrior);
+    cout << warrior.getHP() << endl;
+    cout << "------------------------------------" << endl;
+
+    ManaCard manaCard;
+    manaCard.applyEncounter(ninja);
+    cout << ninja.getHP() << endl;
+
+    Healer healer("Healer");
+    manaCard.applyEncounter(healer);
+    cout << healer.getHP() << endl;
+
+//    WellCard wellCard;
+//    wellCard.applyEncounter(ninja);
+//    cout << ninja.getHP() << endl;
+//
+//    wellCard.applyEncounter(warrior);
+//    cout << warrior.getHP() << endl;
+////    MerchantCard merchantCard;
+////    merchantCard.applyEncounter(ninja);
+//
+//    TreasureCard treasureCard;
+//    treasureCard.applyEncounter(ninja);
+//
+//    cout << ninja.getCoins() << endl;
+//
+//
+//
+//
+//    Warrior warrior("Warrior");
+//    BarfightCard barfightCard;
+//    barfightCard.applyEncounter(warrior);
+//    barfightCard.applyEncounter(ninja);
+//    cout << ninja.getHP() << endl;
+//    cout << warrior.getName() << endl;
+//    cout << warrior.getHP() << endl;
+//
+//    ManaCard manaCard;
+//    manaCard.applyEncounter(ninja);
+//    cout << ninja.getHP() << endl;
+//
+//    Healer healer("Healer");
+//    cout << healer.getName() << endl;
+//    barfightCard.applyEncounter(healer);
+//    barfightCard.applyEncounter(healer);
+//    barfightCard.applyEncounter(healer);
+//    cout << healer.getHP() << endl;
+//    manaCard.applyEncounter(healer);
+//    cout << healer.getHP() << endl;
+
 
 //
 //BattleCard battleCard("BattleCard", 10, 20, 30);
@@ -33,74 +98,73 @@ int main(){
 //    cout << battleCard.getDamage() << endl;
 //    cout << "------------------------------------" << endl;
 
-    Gremlin gremlin("Gremlin");
-    cout << gremlin.getName() << endl;
-    cout << gremlin.getForce() << endl;
-    cout << gremlin.getLoot() << endl;
-    cout << gremlin.getDamage() << endl;
-    cout << "------------------------------------" << endl;
-
-    Witch witch("Witch");
-    cout << witch.getName() << endl;
-    cout << witch.getForce() << endl;
-    cout << witch.getLoot() << endl;
-    cout << witch.getDamage() << endl;
-    cout << "------------------------------------" << endl;
-
-    cout << "After applying Witch encounter: " << endl;
-    witch.applyEncounter(ninja);
-    cout << ninja.getForce() << endl;
-    cout << ninja.getLevel() << endl;
-    cout << ninja.getHP() << endl;
-    cout << ninja.getCoins() << endl;
-    cout << "------------------------------------" << endl;
-
-    // print witch info
-    cout << witch.getName() << endl;
-    cout << witch.getForce() << endl;
-    cout << witch.getLoot() << endl;
-    cout << witch.getDamage() << endl;
-    cout << "------------------------------------" << endl;
-
-    Dragon dragon("Dragon");
-    cout << dragon.getName() << endl;
-    cout << dragon.getForce() << endl;
-    cout << dragon.getLoot() << endl;
-    cout << dragon.getDamage() << endl;
-    cout << "------------------------------------" << endl;
-
-    cout << "After applying Dragon encounter: " << endl;
-    dragon.applyEncounter(ninja);
-    cout << ninja.getForce() << endl;
-    cout << ninja.getLevel() << endl;
-    cout << ninja.getHP() << endl;
-    cout << ninja.getCoins() << endl;
-    cout << "------------------------------------" << endl;
-
-    MerchantCard merchantCard("MerchantCard");
-    cout << merchantCard.getName() << endl;
-//    merchantCard.applyEncounter(ninja);
-    cout << "------------------------------------" << endl;
-    cout << ninja.getCoins() << endl;
-    TreasureCard treasureCard("TreasureCard");
-    treasureCard.applyEncounter(ninja);
-    cout << ninja.getCoins() << endl;
-
-
-
-
-
-    WellCard wellCard("well card");
-
-    cout<< "ninja health after encounter" << endl;
-    ninja.heal(50);
-    wellCard.applyEncounter(ninja);
-    cout << ninja.getHP() << endl;
-
-    Warrior warrior("ali");
-    cout << warrior.getName() << endl;
-    wellCard.applyEncounter(warrior);
-    cout << warrior.getHP() << endl;
+//    Gremlin gremlin;
+//    cout << gremlin.getName() << endl;
+//    cout << gremlin.getForce() << endl;
+//    cout << gremlin.getLoot() << endl;
+//    cout << gremlin.getDamage() << endl;
+//    cout << "------------------------------------" << endl;
+//
+//    Witch witch;
+//    cout << witch.getName() << endl;
+//    cout << witch.getForce() << endl;
+//    cout << witch.getLoot() << endl;
+//    cout << witch.getDamage() << endl;
+//    cout << "------------------------------------" << endl;
+//
+//    cout << "After applying Witch encounter: " << endl;
+//    witch.applyEncounter(ninja);
+//    cout << ninja.getForce() << endl;
+//    cout << ninja.getLevel() << endl;
+//    cout << ninja.getHP() << endl;
+//    cout << ninja.getCoins() << endl;
+//    cout << "------------------------------------" << endl;
+//
+//    // print witch info
+//    cout << witch.getName() << endl;
+//    cout << witch.getForce() << endl;
+//    cout << witch.getLoot() << endl;
+//    cout << witch.getDamage() << endl;
+//    cout << "------------------------------------" << endl;
+//
+//    Dragon* dragon = new Dragon;
+//    cout << dragon->getName() << endl;
+//    cout << dragon->getForce() << endl;
+//    cout << dragon->getLoot() << endl;
+//    cout << dragon->getDamage() << endl;
+//    cout << "------------------------------------" << endl;
+//
+//    cout << "After applying Dragon encounter: " << endl;
+//    dragon->applyEncounter(ninja);
+//    cout << ninja.getForce() << endl;
+//    cout << ninja.getLevel() << endl;
+//    cout << ninja.getHP() << endl;
+//    cout << ninja.getCoins() << endl;
+//    cout << "------------------------------------" << endl;
+//
+//    MerchantCard merchantCard;
+//    cout << merchantCard.getName() << endl;
+////    merchantCard.applyEncounter(ninja);
+//    cout << "------------------------------------" << endl;
+//    cout << ninja.getCoins() << endl;
+//    TreasureCard treasureCard;
+//    treasureCard.applyEncounter(ninja);
+//    cout << ninja.getCoins() << endl;
+//
+//
+//
+//    WellCard wellCard;
+//
+//    cout<< "ninja health after encounter" << endl;
+//    ninja.heal(50);
+//    wellCard.applyEncounter(ninja);
+//    cout << ninja.getHP() << endl;
+//
+//    Warrior warrior("ali");
+//    cout << warrior.getName() << endl;
+//    wellCard.applyEncounter(warrior);
+//    cout << warrior.getHP() << endl;
+//    cout << wellCard << endl;
 
 //    Witch witch("Witch");
 //    cout << witch.getName() << endl;

@@ -5,7 +5,7 @@
 
 class MerchantCard : public Card{
 public:
-    explicit MerchantCard(string name);
+    explicit MerchantCard();
     void applyEncounter(Player &player);
 };
 

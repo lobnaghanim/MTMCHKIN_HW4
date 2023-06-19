@@ -14,10 +14,10 @@ class Player {
     HealthPoints m_HP;
     int m_coins;
 public:
-    // public:
     explicit Player(const std::string &name);
+    Player& operator=(const Player& other) = default;
 //    void printInfo();
-    ~Player() = default;
+    ~Player() = default; // change later
     Player() = default;
     void levelUp();
     void buff(int f);
@@ -32,9 +32,10 @@ public:
     int getLevel() const;
     int getCoins() const;
     string getName() const;
-
 //    friend std::ostream& operator<<(std::ostream& os, const Player& player);
     virtual void wellFall();
+    virtual void barFight();
+    virtual void manaApply();
 };
 
 #endif

@@ -1,5 +1,5 @@
 #include "MerchantCard.h"
-MerchantCard::MerchantCard(string name) : Card(name) {}
+MerchantCard::MerchantCard() : Card("Merchant") {}
 
 void MerchantCard::applyEncounter(Player &player) {
 //    printf("MerchantCard::applyEncounter\n");
@@ -7,11 +7,16 @@ void MerchantCard::applyEncounter(Player &player) {
     int choice = -1;
     int cost = 0;
     // ask player to choose a number between 0 and 2
+    std::cin >> choice;
     while (choice < 0 || choice > 2) {
+        printInvalidInput();
         std::cin >> choice;
     }
+
     switch (choice) {
         case 0:
+//            cost = 0;
+//            printMerchantSummary(std::cout, player.getName(), choice, cost);
             break;
         case 1:
             if(player.pay(5)){

@@ -4,7 +4,7 @@
 
 class WellCard : public Card{
 public:
-    explicit WellCard(string name);
+    explicit WellCard();
     void applyEncounter(Player &player);
 };
 

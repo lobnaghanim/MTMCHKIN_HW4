@@ -9,3 +9,10 @@ string Card::getName() {
     return m_name;
 }
 
+std::ostream &operator<<(ostream &os, const Card &card) {
+    os << card.m_name;
+    return os;
+}
+
+
+

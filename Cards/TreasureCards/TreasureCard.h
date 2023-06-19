@@ -4,7 +4,7 @@
 #include "Cards/Card.h"
 class TreasureCard : public Card{
 public:
-    explicit TreasureCard(string name);
+    explicit TreasureCard();
     void applyEncounter(Player &player);
 };
 

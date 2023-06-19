@@ -4,7 +4,7 @@
 #include "BattleCard.h"
 class Dragon : public BattleCard{
 public:
-    explicit Dragon(string name);
+    explicit Dragon();
     void applyEncounter(Player &player) override;
 };
 

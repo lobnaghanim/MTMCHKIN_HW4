@@ -1,6 +1,6 @@
 #include "Witch.h"
 
-Witch::Witch(string name) : BattleCard(name, 11, 2, 10) {}
+Witch::Witch() : BattleCard("Witch", 11, 2, 10) {}
 
 void Witch::applyEncounter(Player &player) {
     if(isAWin(player, *this)){

@@ -4,7 +4,7 @@
 
 class Gremlin : public BattleCard{
 public:
-    explicit Gremlin(string name);
+    explicit Gremlin();
     void applyEncounter(Player &player) override;
 };
 

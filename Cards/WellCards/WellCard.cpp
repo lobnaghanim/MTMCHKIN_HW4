@@ -1,5 +1,5 @@
 #include "WellCard.h"
-WellCard::WellCard(string name) : Card(name) {}
+WellCard::WellCard() : Card("Well Card") {}
 
 void WellCard::applyEncounter(Player &player) {
     player.wellFall();

@@ -10,6 +10,11 @@ class Card{
 public:
     explicit Card(string name);
     string getName();
+    virtual void applyEncounter(Player &player) = 0;
+    virtual ~Card() = default;
+    Card(const Card& other) = delete;
+    Card& operator=(const Card& other) = delete;
+    friend std::ostream& operator<<(std::ostream& os, const Card& card);
 protected:
     string m_name;
 

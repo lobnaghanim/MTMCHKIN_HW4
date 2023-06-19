@@ -4,7 +4,7 @@
 
 class Witch : public BattleCard{
 public:
-    explicit Witch(string name);
+    explicit Witch();
     void applyEncounter(Player &player) override;
 };
 

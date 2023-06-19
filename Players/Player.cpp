@@ -1,5 +1,5 @@
 #include "Player.h"
-//#include "utilities.h"
+#include "utilities.h"
 #include "HealthPoints/HealthPoints.h"
 
 #define INITIAL_FORCE 5
@@ -103,4 +103,14 @@ int Player::getCoins() const {
 
 void Player::wellFall(){
     this->damage(10);
+    printWellMessage(false);
+}
+
+void Player::barFight() {
+    this->damage(8);
+    printBarfightMessage(false);
+}
+
+void Player::manaApply() {
+    printManaMessage(false);
 }

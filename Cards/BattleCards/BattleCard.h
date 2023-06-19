@@ -11,7 +11,7 @@ public:
     int getDamage() const;
     int getLoot() const;
     int getForce() const;
-    virtual void applyEncounter(Player &player) = 0;
+//    virtual void applyEncounter(Player &player) = 0;
 protected:
     int m_force;
     int m_loot;
