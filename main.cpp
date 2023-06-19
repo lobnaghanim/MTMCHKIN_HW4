@@ -18,38 +18,40 @@
 using namespace std;
 
 int main(){
-    Ninja ninja("Ninja");
-    cout << ninja.getName() << endl;
-    cout << ninja.getForce() << endl;
-    cout << ninja.getLevel() << endl;
-    cout << ninja.getHP() << endl;
-    cout << ninja.getCoins() << endl;
-    cout << ninja.getAttackStrength() << endl;
-    cout << "------------------------------------" << endl;
-    Warrior warrior("Warrior");
-    cout << warrior.getName() << endl;
-    cout << warrior.getForce() << endl;
-    cout << warrior.getLevel() << endl;
-    cout << warrior.getHP() << endl;
-    cout << warrior.getCoins() << endl;
-    cout << warrior.getAttackStrength() << endl;
-    cout << "------------------------------------" << endl;
 
-    BarfightCard barfightCard;
-    barfightCard.applyEncounter(ninja);
-    cout << ninja.getHP() << endl;
 
-    barfightCard.applyEncounter(warrior);
-    cout << warrior.getHP() << endl;
-    cout << "------------------------------------" << endl;
-
-    ManaCard manaCard;
-    manaCard.applyEncounter(ninja);
-    cout << ninja.getHP() << endl;
-
-    Healer healer("Healer");
-    manaCard.applyEncounter(healer);
-    cout << healer.getHP() << endl;
+//    Ninja ninja("Ninja");
+//    cout << ninja.getName() << endl;
+//    cout << ninja.getForce() << endl;
+//    cout << ninja.getLevel() << endl;
+//    cout << ninja.getHP() << endl;
+//    cout << ninja.getCoins() << endl;
+//    cout << ninja.getAttackStrength() << endl;
+//    cout << "------------------------------------" << endl;
+//    Warrior warrior("Warrior");
+//    cout << warrior.getName() << endl;
+//    cout << warrior.getForce() << endl;
+//    cout << warrior.getLevel() << endl;
+//    cout << warrior.getHP() << endl;
+//    cout << warrior.getCoins() << endl;
+//    cout << warrior.getAttackStrength() << endl;
+//    cout << "------------------------------------" << endl;
+//
+//    BarfightCard barfightCard;
+//    barfightCard.applyEncounter(ninja);
+//    cout << ninja.getHP() << endl;
+//
+//    barfightCard.applyEncounter(warrior);
+//    cout << warrior.getHP() << endl;
+//    cout << "------------------------------------" << endl;
+//
+//    ManaCard manaCard;
+//    manaCard.applyEncounter(ninja);
+//    cout << ninja.getHP() << endl;
+//
+//    Healer healer("Healer");
+//    manaCard.applyEncounter(healer);
+//    cout << healer.getHP() << endl;
 
 //    WellCard wellCard;
 //    wellCard.applyEncounter(ninja);

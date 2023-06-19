@@ -39,6 +39,8 @@ add_executable(MTMCHKIN_HW4
         Cards/BarfightCards/BarfightCard.h
         Cards/ManaCards/ManaCard.cpp
         Cards/ManaCards/ManaCard.h
+        Mtmchkin.h
+        Mtmchkin.cpp
         )
 
 #add_executable(MTMCHKIN_HW4
