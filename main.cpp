@@ -22,7 +22,7 @@ using namespace std;
 int main(){
 
     Mtmchkin game("C:\\Users\\Ali Harbaji\\Documents\\GitHub\\MTMCHKIN_HW4\\deck.txt");
-//
+
 //    cout << game.m_players[0]->getName() << endl;
 
 

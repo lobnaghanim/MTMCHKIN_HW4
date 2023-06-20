@@ -17,7 +17,6 @@ public:
     friend std::ostream& operator<<(std::ostream& os, const Card& card);
 protected:
     string m_name;
-
 };
 
 
