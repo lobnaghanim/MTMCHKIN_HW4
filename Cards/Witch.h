@@ -1,6 +1,6 @@
 #ifndef WITCH_H
 #define WITCH_H
-#include "BattleCard.h"
+#include "Cards/BattleCards/BattleCard.h"
 
 class Witch : public BattleCard{
 public:

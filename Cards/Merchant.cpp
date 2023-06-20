@@ -1,7 +1,7 @@
-#include "MerchantCard.h"
-MerchantCard::MerchantCard() : Card("Merchant") {}
+#include "Merchant.h"
+Merchant::Merchant() : Card("Merchant") {}
 
-void MerchantCard::applyEncounter(Player &player) {
+void Merchant::applyEncounter(Player &player) {
 //    printf("MerchantCard::applyEncounter\n");
     printMerchantInitialMessageForInteractiveEncounter(std::cout, player.getName(), player.getCoins());
     int choice = -1;

@@ -2,9 +2,9 @@
 #define TREASURE_H
 
 #include "Cards/Card.h"
-class TreasureCard : public Card{
+class Treasure : public Card{
 public:
-    explicit TreasureCard();
+    explicit Treasure();
     void applyEncounter(Player &player) override;
 };
 

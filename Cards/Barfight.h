@@ -1,10 +1,10 @@
 #ifndef BARFIGHT_CARD_H
 #define BARFIGHT_CARD_H
-#include "../Card.h"
+#include "Card.h"
 
-class BarfightCard : public Card {
+class Barfight : public Card {
 public:
-    BarfightCard();
+    Barfight();
     void applyEncounter(Player &player) override;
 };
 

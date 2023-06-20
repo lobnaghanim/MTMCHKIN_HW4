@@ -3,9 +3,9 @@
 
 #include "Cards/Card.h"
 
-class MerchantCard : public Card{
+class Merchant : public Card{
 public:
-    explicit MerchantCard();
+    explicit Merchant();
     void applyEncounter(Player &player) override;
 };
 

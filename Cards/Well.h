@@ -2,9 +2,9 @@
 #define WELL_CARD_H
 #include "Cards/Card.h"
 
-class WellCard : public Card{
+class Well : public Card{
 public:
-    explicit WellCard();
+    explicit Well();
     void applyEncounter(Player &player) override;
 };
 

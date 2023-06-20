@@ -21,26 +21,30 @@ add_executable(MTMCHKIN_HW4
         Players/Warrior.cpp
         Cards/Card.cpp
         Cards/Card.h
-        Cards/BattleCards/Gremlin.cpp
-        Cards/BattleCards/Gremlin.h
+        Cards/Gremlin.cpp
+        Cards/Gremlin.h
         Cards/BattleCards/BattleCard.cpp
         Cards/BattleCards/BattleCard.h
-        Cards/BattleCards/Witch.cpp
-        Cards/BattleCards/Witch.h
-        Cards/BattleCards/Dragon.cpp
-        Cards/BattleCards/Dragon.h
-        Cards/MerchantCards/MerchantCard.cpp
-        Cards/MerchantCards/MerchantCard.h
-        Cards/TreasureCards/TreasureCard.cpp
-        Cards/TreasureCards/TreasureCard.h
-        Cards/WellCards/WellCard.cpp
-        Cards/WellCards/WellCard.h
-        Cards/BarfightCards/BarfightCard.cpp
-        Cards/BarfightCards/BarfightCard.h
-        Cards/ManaCards/ManaCard.cpp
-        Cards/ManaCards/ManaCard.h
+        Cards/Witch.cpp
+        Cards/Witch.h
+        Cards/Dragon.cpp
+        Cards/Dragon.h
+        Cards/Merchant.cpp
+        Cards/Merchant.h
+        Cards/Treasure.cpp
+        Cards/Treasure.h
+        Cards/Well.cpp
+        Cards/Well.h
+        Cards/Barfight.cpp
+        Cards/Barfight.h
+        Cards/Mana.cpp
+        Cards/Mana.h
         Mtmchkin.h
         Mtmchkin.cpp
+
+
+#        test.cpp
+
         )
 
 #add_executable(MTMCHKIN_HW4

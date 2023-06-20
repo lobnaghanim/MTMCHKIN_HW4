@@ -11,7 +11,7 @@
 #include "Cards/Barfight.h"
 #include "Cards/Dragon.h"
 #include "Cards/Mana.h"
-#include "Cards/BattleCards/Gremlin.h"
+#include "Cards/Gremlin.h"
 #include "Cards/Merchant.h"
 #include "Cards/Well.h"
 #include "Cards/Treasure.h"
@@ -138,11 +138,11 @@ bool cardsPrintsTest()
 
 bool playersPrintsTest()
 {
-    
+
     Ninja player1("Itay");
     Warrior player2("Efrat");
     Healer player3("Jimmy");
-    cout << player1 << std::endl << player2 << std::endl << player3   
+    cout << player1 << std::endl << player2 << std::endl << player3
                     << std::endl;
     return true;
 }

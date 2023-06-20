@@ -1,10 +1,10 @@
 #ifndef MANA_CARD_H
 #define MANA_CARD_H
-#include "../Card.h"
+#include "Card.h"
 
-class ManaCard : public Card {
+class Mana : public Card {
 public:
-    ManaCard();
+    Mana();
     void applyEncounter(Player &player) override;
 };
 

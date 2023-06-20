@@ -1,7 +1,7 @@
 #ifndef DRAGON_H
 #define DRAGON_H
 
-#include "BattleCard.h"
+#include "Cards/BattleCards/BattleCard.h"
 class Dragon : public BattleCard{
 public:
     explicit Dragon();
