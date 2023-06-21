@@ -21,7 +21,7 @@ bool inputIsValid(string * inputArray, int size) {
 }
 
 Mtmchkin::Mtmchkin(const std::string &fileName) {
-    m_players.push_back(new Player());
+//    m_players.push_back(new Player());
 
     std::ifstream file(fileName);
 
@@ -35,7 +35,6 @@ Mtmchkin::Mtmchkin(const std::string &fileName) {
     while (std::getline(file, line)) {
         if (!line.empty()) {
             // create a new card and add it to the deck
-            printf("line is: %s\n", line.c_str());
             inputArray.push_back(line);
             size++;
         }
@@ -47,31 +46,31 @@ Mtmchkin::Mtmchkin(const std::string &fileName) {
 
 
     // construct the deck
-    for(string s: inputArray){
+    for( const string& s: inputArray){
         if(s == "Dragon"){
-            m_deck.push_back(new Dragon());
+            m_deck.push_back(unique_ptr<Dragon>(new Dragon()));
         } else if(s == "Well"){
-            m_deck.push_back(new Well());
+            m_deck.push_back(unique_ptr<Well>(new Well()));
         } else if(s == "Barfight"){
-            m_deck.push_back(new Barfight());
+            m_deck.push_back(unique_ptr<Barfight>(new Barfight()));
         } else if(s == "Gremlin"){
-            m_deck.push_back(new Gremlin());
+            m_deck.push_back(unique_ptr<Gremlin>(new Gremlin()));
         } else if(s == "Witch"){
-            m_deck.push_back(new Witch());
+            m_deck.push_back(unique_ptr<Witch>(new Witch()));
         } else if(s == "Merchant"){
-            m_deck.push_back(new Merchant());
+            m_deck.push_back(unique_ptr<Merchant>(new Merchant()));
         } else if(s == "Treasure"){
-            m_deck.push_back(new Treasure());
+            m_deck.push_back(unique_ptr<Treasure>(new Treasure()));
         } else if(s == "Mana"){
-            m_deck.push_back(new Mana());
+            m_deck.push_back(unique_ptr<Mana>(new Mana()));
         }
     }
-
     // print the deck
-    for(Card* card: m_deck){
-        cout << card->getName() << endl;
+    // without using auto
+
+    for(int i = 0; i < m_deck.size(); i++){
+        printf("card %d is: %s\n", i, m_deck[i]->getName().c_str());
     }
 
     file.close();
-
 }

@@ -4,6 +4,8 @@
 #include <string>
 #include <vector>
 #include "Cards/Card.h"
+#include "memory"
+using std::unique_ptr;
 
 class Mtmchkin{
 
@@ -52,8 +54,8 @@ public:
     int getNumberOfRounds() const;
 
 private:
-    std::vector<Player*> m_players;
-    std::vector<Card*> m_deck;
+    std::vector<unique_ptr<Player>> m_players;
+    std::vector<unique_ptr<Card>> m_deck;
 };
 
 

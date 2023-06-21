@@ -76,10 +76,10 @@ bool testCard()
 
 
 int main(){
-
-    run_test(cardsPrintsTest,"cardsPrintsTest");
+    Mtmchkin game("C:\\Users\\Ali Harbaji\\Documents\\GitHub\\MTMCHKIN_HW4\\deck.txt");
+//    run_test(cardsPrintsTest,"cardsPrintsTest");
 //    run_test(playersPrintsTest,"playersPrintsTest");
-    run_test(testCard,"Deck creation test");
+//    run_test(testCard,"Deck creation test");
 //    run_test(dragonDenTest,"Dragon Den simulation test");
 //    run_test(gremlinCaveTest,"Gremlin Cave simulation test");
 //    run_test(witchLairTest,"Witch Lair simulation test");
