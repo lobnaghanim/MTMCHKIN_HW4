@@ -1,14 +1,6 @@
 #include <fstream>
 #include "Mtmchkin.h"
 
-#include "Cards/Dragon.h"
-#include "Cards/Witch.h"
-#include "Cards/Merchant.h"
-#include "Cards/Treasure.h"
-#include "Cards/Well.h"
-#include "Cards/Barfight.h"
-#include "Cards/Mana.h"
-#include "Cards/Gremlin.h"
 
 bool inputIsValid(string * inputArray, int size) {
     for(int i = 0; i < size; i++) {

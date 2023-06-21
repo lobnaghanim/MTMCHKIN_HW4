@@ -5,6 +5,16 @@
 #include <vector>
 #include "Cards/Card.h"
 #include "memory"
+
+#include "Cards/Dragon.h"
+#include "Cards/Witch.h"
+#include "Cards/Merchant.h"
+#include "Cards/Treasure.h"
+#include "Cards/Well.h"
+#include "Cards/Barfight.h"
+#include "Cards/Mana.h"
+#include "Cards/Gremlin.h"
+
 using std::unique_ptr;
 
 class Mtmchkin{
