@@ -48,21 +48,34 @@ Mtmchkin::Mtmchkin(const std::string &fileName) {
     // construct the deck
     for( const string& s: inputArray){
         if(s == "Dragon"){
-            m_deck.push_back(unique_ptr<Dragon>(new Dragon()));
+            unique_ptr<Dragon> dragon(new Dragon());
+            m_deck.push_back(std::move(dragon));
         } else if(s == "Well"){
-            m_deck.push_back(unique_ptr<Well>(new Well()));
+            unique_ptr<Well> well(new Well());
+            m_deck.push_back(std::move(well));
         } else if(s == "Barfight"){
-            m_deck.push_back(unique_ptr<Barfight>(new Barfight()));
+            unique_ptr<Barfight> barfight(new Barfight());
+            m_deck.push_back(std::move(barfight));
         } else if(s == "Gremlin"){
-            m_deck.push_back(unique_ptr<Gremlin>(new Gremlin()));
+            unique_ptr<Gremlin> gremlin(new Gremlin());
+            m_deck.push_back(std::move(gremlin));
+//            m_deck.push_back(unique_ptr<Gremlin>(new Gremlin()));
         } else if(s == "Witch"){
-            m_deck.push_back(unique_ptr<Witch>(new Witch()));
+            unique_ptr<Witch> witch(new Witch());
+            m_deck.push_back(std::move(witch));
+//            m_deck.push_back(unique_ptr<Witch>(new Witch()));
         } else if(s == "Merchant"){
-            m_deck.push_back(unique_ptr<Merchant>(new Merchant()));
+            unique_ptr<Merchant> merchant(new Merchant());
+            m_deck.push_back(std::move(merchant));
+//            m_deck.push_back(unique_ptr<Merchant>(new Merchant()));
         } else if(s == "Treasure"){
-            m_deck.push_back(unique_ptr<Treasure>(new Treasure()));
+            unique_ptr<Treasure> treasure(new Treasure());
+            m_deck.push_back(std::move(treasure));
+//            m_deck.push_back(unique_ptr<Treasure>(new Treasure()));
         } else if(s == "Mana"){
-            m_deck.push_back(unique_ptr<Mana>(new Mana()));
+            unique_ptr<Mana> mana(new Mana());
+            m_deck.push_back(std::move(mana));
+//            m_deck.push_back(unique_ptr<Mana>(new Mana()));
         }
     }
     // print the deck
