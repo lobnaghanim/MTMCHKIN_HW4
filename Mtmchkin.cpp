@@ -14,6 +14,33 @@ bool inputIsValid(string * inputArray, int size) {
 
 Mtmchkin::Mtmchkin(const std::string &fileName) {
 //    m_players.push_back(new Player());
+    printStartGameMessage();
+    printEnterTeamSizeMessage();
+    int teamSize = 0;
+    std::cin >> teamSize;
+    while(teamSize <= 1 || teamSize >= 7) {
+        printInvalidTeamSize();
+        std::cin >> teamSize;
+    }
+
+    for(int i = 0; i < teamSize; i++) {
+        printInsertPlayerMessage();
+        string name;
+        std::cin >> name;
+        int isInvalid = isInvalid(name);
+        while(isInvalid != 1){ // @TODO: implement isInvalid (make it return 1 if valid, 2 if the player's name is invalid, 3 if the player's class is invalid)
+            if(isInvalid == 2){
+                printInvalidName();
+            }else if(isInvalid == 3){
+                printInvalidClass();
+            }
+            std::cin >> name;
+            isInvalid = isInvalid(name);
+        }
+
+        unique_ptr<Player> player(new Player(name));
+        m_players.push_back(std::move(player));
+    }
 
     std::ifstream file(fileName);
 
@@ -73,9 +100,9 @@ Mtmchkin::Mtmchkin(const std::string &fileName) {
     // print the deck
     // without using auto
 
-    for(int i = 0; i < m_deck.size(); i++){
-        printf("card %d is: %s\n", i, m_deck[i]->getName().c_str());
-    }
+//    for(int i = 0; i < m_deck.size(); i++){
+//        printf("card %d is: %s\n", i, m_deck[i]->getName().c_str());
+//    }
 
     file.close();
 }
