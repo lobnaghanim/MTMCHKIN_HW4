@@ -15,6 +15,7 @@ public:
     Card(const Card& other) = delete;
     Card& operator=(const Card& other) = delete;
     friend std::ostream& operator<<(std::ostream& os, const Card& card);
+    virtual void print(std::ostream &os) const = 0;
 protected:
     string m_name;
 };

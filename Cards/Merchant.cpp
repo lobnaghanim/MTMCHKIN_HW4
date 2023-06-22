@@ -43,3 +43,7 @@ void Merchant::applyEncounter(Player &player) {
 
 
 }
+
+void Merchant::print(ostream &os) const {
+    return; // do nothing
+}

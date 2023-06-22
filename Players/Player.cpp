@@ -129,9 +129,6 @@ int Player::HP_asInteger() const {
     return getIntHP(this->m_HP);
 }
 
-
-
-
 std::ostream &operator<<(ostream &os, const Player &player) {
     printPlayerDetails(os, player.m_name, player.m_job, player.m_level, player.m_force, player.HP_asInteger(), player.m_coins);
     return os;

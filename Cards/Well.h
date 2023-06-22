@@ -6,6 +6,7 @@ class Well : public Card{
 public:
     explicit Well();
     void applyEncounter(Player &player) override;
+    void print(std::ostream &os) const override;
 };
 
 

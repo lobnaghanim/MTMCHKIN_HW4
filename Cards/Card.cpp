@@ -10,9 +10,12 @@ string Card::getName() {
 }
 
 std::ostream &operator<<(ostream &os, const Card &card) {
-    os << card.m_name;
+    printCardDetails(os, card.m_name);
+    card.print(os);
+    printEndOfCardDetails(os);
     return os;
 }
+
 
 
 

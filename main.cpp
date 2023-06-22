@@ -91,13 +91,26 @@ int main(){
 //        game.playRound();
 //    }
 
-    Healer healer("Ali");
 
+
+    Healer healer("Ali");
     cout << healer << endl;
+
+
+    Witch witch;
+    cout << witch << endl;
+
+    Gremlin gremlin;
+    cout << gremlin << endl;
+
+    Dragon dragon;
+    cout << dragon << endl;
 
     Treasure t;
     cout << t << endl;
 
+    Merchant m;
+    cout << m << endl;
 
 
 //

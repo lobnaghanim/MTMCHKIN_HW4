@@ -6,6 +6,7 @@ class Barfight : public Card {
 public:
     Barfight();
     void applyEncounter(Player &player) override;
+    void print(std::ostream &os) const override;
 };
 
 

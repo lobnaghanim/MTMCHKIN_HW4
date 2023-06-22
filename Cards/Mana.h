@@ -6,6 +6,7 @@ class Mana : public Card {
 public:
     Mana();
     void applyEncounter(Player &player) override;
+    void print(std::ostream &os) const override;
 };
 
 

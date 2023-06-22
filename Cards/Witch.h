@@ -6,6 +6,7 @@ class Witch : public BattleCard{
 public:
     explicit Witch();
     void applyEncounter(Player &player) override;
+    void print(std::ostream &os) const override;
 };
 
 #endif
