@@ -1,6 +1,4 @@
-#include <fstream>
 #include "Mtmchkin.h"
-#include <sstream>
 #define SPACE ' '
 
 // counts the number of occurrences of a character in a string
@@ -206,6 +204,8 @@ void Mtmchkin::playRound() {
         if(m_players[i]->isKnockedOut() || m_players[i]->getLevel() >= MAXLVL){
             continue;
         }
+        printTurnStartMessage(m_players[i]->getName());
+
         m_deck[m_currentCard]->applyEncounter(*m_players[i]);
         if(m_players[i]->getLevel() >= MAXLVL){
             m_winners_indexes.push_back(i);

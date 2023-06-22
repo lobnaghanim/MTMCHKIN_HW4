@@ -17,6 +17,8 @@
 #include "Cards/Barfight.h"
 #include "Cards/Mana.h"
 #include "Cards/Gremlin.h"
+#include <fstream>
+#include <sstream>
 
 #define MAXLVL 10
 
