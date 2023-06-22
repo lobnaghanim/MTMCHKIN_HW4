@@ -88,6 +88,10 @@ HealthPoints &HealthPoints::operator=(const HealthPoints &healthPoints) {
     return *this;
 }
 
+int getIntHP(const HealthPoints &healthPoints) {
+    return healthPoints.HP;
+}
+
 
 
 

@@ -145,7 +145,6 @@ Mtmchkin::Mtmchkin(const std::string &fileName) {
     buildDeck(inputArray);
 
     m_roundsPlayed = 0;
-    m_currentPlayer = 0;
     m_currentCard = 0;
     file.close();
 }
@@ -208,6 +207,11 @@ void Mtmchkin::playRound() {
             continue;
         }
         m_deck[m_currentCard]->applyEncounter(*m_players[i]);
+        if(m_players[i]->getLevel() >= MAXLVL){
+            m_winners_indexes.push_back(i);
+        } else if(m_players[i]->isKnockedOut()){
+            m_losers_indexes.push_back(i);
+        }
     }
 
 
@@ -218,6 +222,7 @@ void Mtmchkin::playRound() {
     }
     m_roundsPlayed++;
 
+    printLeaderBoard();
     if(isGameOver()){
         printGameEndMessage();
         return;
@@ -226,4 +231,28 @@ void Mtmchkin::playRound() {
 
 int Mtmchkin::getNumberOfRounds() const {
     return m_roundsPlayed;
+}
+
+void Mtmchkin::printLeaderBoard() const {
+    printLeaderBoardStartMessage();
+    // print the leader board
+    int rank = 1;
+    for(int i = 0; i < m_winners_indexes.size(); i++){
+        printPlayerLeaderBoard(rank,*m_players[m_winners_indexes[i]]);
+        rank++;
+    }
+    // for each player that is not a winner and not a loser
+    for(int i = 0; i < m_players.size(); i++){
+        if(m_players[i]->isKnockedOut() || m_players[i]->getLevel() >= MAXLVL){
+            continue;
+        }
+        printPlayerLeaderBoard(rank,*m_players[i]);
+        rank++;
+    }
+
+    for(int i = m_losers_indexes.size() - 1; i >= 0; i--){
+        printPlayerLeaderBoard(rank,*m_players[m_losers_indexes[i]]);
+        rank++;
+    }
+
 }

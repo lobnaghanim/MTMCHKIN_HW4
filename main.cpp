@@ -90,7 +90,22 @@ int main(){
     while(!game.isGameOver()){
         game.playRound();
     }
-
+//
+//    vector<char> v = {'a','b','c','d','e','f', 'm'};
+//    vector<int> w = {0, 4, 3};
+//    vector<int> l = {1, 2, 5};
+//
+//
+//    int rank = 1;
+//    for(int i = 0; i < 3; i++){
+//        cout << "rank is: " << rank << "char is " << v[w[i]] << endl;
+//        rank++;
+//    }
+//
+//    for(int i = 4 - 1; i >= 0; i--){
+//        cout << "rank is: " << rank << "char is " << v[l[i]] << endl;
+//        rank++;
+//    }
 
     return 0;
 

@@ -7,6 +7,7 @@ public:
     explicit Healer(const string& name) : Player(name){ };
     void heal(int health) override;
     void manaApply() override;
+    friend std::ostream& operator<<(std::ostream& os, const Player& player);
 };
 
 #endif

@@ -37,6 +37,7 @@ public:
     virtual void barFight();
     virtual void manaApply();
 
+    int HP_asInteger() const;
 };
 
 #endif

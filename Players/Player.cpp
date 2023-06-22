@@ -115,7 +115,15 @@ void Player::manaApply() {
     printManaMessage(false);
 }
 
-std::ostream &operator<<(ostream &os, const Player &player) {
-    os << player.m_name << " " << player.m_level << " " << player.m_force << " " << player.m_HP << " " << player.m_coins;
-    return os;
+int Player::HP_asInteger() const {
+    return getIntHP(this->m_HP);
 }
+
+
+//std::ostream &operator<<(ostream &os, const Player &player) {
+////    os << player.m_name << " " << player.m_level << " " << player.m_force << " " << player.m_HP << " " << player.m_coins;
+//    printPlayerDetails(os, player.m_name, "PLAYER", player.m_level, player.m_force, player.HP_asInteger(), player.m_coins);
+////    std::ostream &os, const std::string &name, const std::string &job, int level, int force, int HP, int coins
+//    return os;
+//}
+
