@@ -4,7 +4,7 @@
 
 class Ninja : public Player{
 public:
-    explicit Ninja(const string& name) : Player(name){ };
+    explicit Ninja(const string& name) : Player(name, "Ninja"){ };
     void addCoins(int coins) override;
     void wellFall() override;
 };

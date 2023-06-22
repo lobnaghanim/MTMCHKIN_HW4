@@ -9,8 +9,8 @@ void Healer::manaApply() {
     printManaMessage(true);
 }
 
-std::ostream& operator<<(std::ostream& os, const Player& player){
-    printPlayerDetails(os, player.getName(), "Healer", player.getLevel(),
-                       player.getForce(), player.HP_asInteger(), player.getCoins());
-    return os;
-}
+//std::ostream& operator<<(std::ostream& os, const Player& player){
+//    printPlayerDetails(os, player.getName(), player.getJob(), player.getLevel(),
+//                       player.getForce(), player.HP_asInteger(), player.getCoins());
+//    return os;
+//}

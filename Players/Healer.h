@@ -4,10 +4,10 @@
 
 class Healer : public Player{
 public:
-    explicit Healer(const string& name) : Player(name){ };
+    explicit Healer(const string& name) : Player(name, "Healer"){};
     void heal(int health) override;
     void manaApply() override;
-    friend std::ostream& operator<<(std::ostream& os, const Player& player);
+//    friend std::ostream& operator<<(std::ostream& os, const Player& player);
 };
 
 #endif

@@ -13,8 +13,10 @@ class Player {
     int m_force;
     HealthPoints m_HP;
     int m_coins;
+    string m_job;
 public:
     explicit Player(const std::string &name);
+    explicit Player(const std::string &name, const std::string &job);
     Player& operator=(const Player& other) = default;
 //    void printInfo();
     ~Player() = default; // change later
