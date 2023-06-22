@@ -1,5 +1,6 @@
 #ifndef MANA_CARD_H
 #define MANA_CARD_H
+
 #include "Card.h"
 
 class Mana : public Card {

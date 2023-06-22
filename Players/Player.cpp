@@ -1,6 +1,6 @@
 #include "Player.h"
-#include "utilities.h"
-#include "HealthPoints/HealthPoints.h"
+#include "../utilities.h"
+
 
 #define INITIAL_FORCE 5
 #define INITIAL_LVL 1

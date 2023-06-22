@@ -1,5 +1,5 @@
 #include "Ninja.h"
-#include "utilities.h"
+
 
 void Ninja::addCoins(int coins) {
     Player::addCoins(coins * 2);

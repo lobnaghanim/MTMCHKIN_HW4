@@ -1,6 +1,7 @@
 #ifndef WELL_CARD_H
 #define WELL_CARD_H
-#include "Cards/Card.h"
+
+#include "Card.h"
 
 class Well : public Card{
 public:
