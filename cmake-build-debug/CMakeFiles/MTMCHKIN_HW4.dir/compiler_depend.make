@@ -1871,7 +1871,8 @@ CMakeFiles/MTMCHKIN_HW4.dir/Mtmchkin.cpp.obj: C:/Users/allih/OneDrive/Documents/
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Barfight.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Card.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Mana.h \
-  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Gremlin.h
+  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Gremlin.h \
+  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/utilities.h
 
 CMakeFiles/MTMCHKIN_HW4.dir/Players/Healer.cpp.obj: C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Players/Healer.cpp \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Players/Healer.h \
@@ -2673,6 +2674,7 @@ CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.obj: C:/Users/allih/OneDrive/Documents/GitH
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Card.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Mana.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Gremlin.h \
+  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/utilities.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/algorithm \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_algo.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/algorithmfwd.h \

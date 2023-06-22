@@ -18,6 +18,9 @@
 #include "Cards/Mana.h"
 #include "Cards/Gremlin.h"
 
+#define MAXLVL 10
+#define MINHP 0
+#include "utilities.h"
 
 using std::unique_ptr;
 
@@ -72,6 +75,12 @@ private:
     std::vector<unique_ptr<Card>> m_deck;
     void buildPlayer(const std::string &name, const std::string &type);
     void buildDeck(const std::vector<std::string> &inputArray);
+    int m_roundsPlayed;
+    int m_currentPlayer;
+    int m_currentCard;
+
+    std::vector<unique_ptr<Player>> m_winners;
+    std::vector<unique_ptr<Player>> m_losers;
 };
 
 

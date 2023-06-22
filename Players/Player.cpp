@@ -57,7 +57,7 @@ void Player::damage(int dmg) {
 }
 
 bool Player::isKnockedOut() const {
-    if(this->m_HP == 0){
+    if(this->m_HP <= 0){
         return true;
     }
     return false;

@@ -192,4 +192,5 @@ CMakeFiles/MTMCHKIN_HW4.dir/Mtmchkin.cpp.obj: \
  C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Cards/Barfight.h \
  C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Cards/Card.h \
  C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Cards/Mana.h \
- C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Cards/Gremlin.h
+ C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Cards/Gremlin.h \
+ C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\utilities.h

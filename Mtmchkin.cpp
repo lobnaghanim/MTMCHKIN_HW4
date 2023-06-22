@@ -24,12 +24,8 @@ int isValid(const string & input){
     std::string name, type;
     std::istringstream iss(input);
 
-    // print input size
-//    cout << input.size() << endl;
-
     // check if the input is more than 2 words
     if (count(input, SPACE) != 1) {
-        cout << count(input, SPACE) << endl;
         return 2;  // Invalid input
     }
 
@@ -42,9 +38,6 @@ int isValid(const string & input){
             break;
         }
     }
-
-//    cout << name << endl;
-//    cout << type << endl;
 
     if (iss >> name >> type) {
         if(name.length() > 15){
@@ -70,7 +63,7 @@ bool cardTypesAreValid(string * inputArray, int size) {
 }
 
 void Mtmchkin::buildPlayer(const std::string &name, const std::string &type) {
-    cout << "Building player " << name << " of type " << type << endl;
+//    cout << "Building player " << name << " of type " << type << endl;
     if(type == "Ninja"){
         unique_ptr<Ninja> ninja(new Ninja(name));
         m_players.push_back(std::move(ninja));
@@ -132,7 +125,7 @@ Mtmchkin::Mtmchkin(const std::string &fileName) {
         buildPlayer(tempName, tempType);
     }
 
-
+    // card array
     vector<string> inputArray;
     int size = 0;
     std::string line;
@@ -151,6 +144,9 @@ Mtmchkin::Mtmchkin(const std::string &fileName) {
     // construct the deck
     buildDeck(inputArray);
 
+    m_roundsPlayed = 0;
+    m_currentPlayer = 0;
+    m_currentCard = 0;
     file.close();
 }
 
@@ -185,7 +181,49 @@ void Mtmchkin::buildDeck(const std::vector<std::string> &inputArray) {
     }
 }
 
-void Mtmchkin::playRound() {
-    printRoundStartMessage(0);
+bool Mtmchkin::isGameOver() const {
+    int count = 0;
+    for(int i = 0; i < m_players.size(); i++){
+        if(m_players[i]->isKnockedOut() || m_players[i]->getLevel() >= MAXLVL){
+            count++;
+        }
+    }
+    if(count == m_players.size()){
+        return true;
+    }
+    return false;
 }
 
+void Mtmchkin::playRound() {
+    if(isGameOver()){
+        printGameEndMessage();
+        return;
+    }
+
+    // print the round start message
+    printRoundStartMessage(m_roundsPlayed + 1);
+
+    for(int i = 0; i < m_players.size(); i++){
+        if(m_players[i]->isKnockedOut() || m_players[i]->getLevel() >= MAXLVL){
+            continue;
+        }
+        m_deck[m_currentCard]->applyEncounter(*m_players[i]);
+    }
+
+
+    // cyclical increment
+    m_currentCard++;
+    if(m_currentCard == m_deck.size()){
+        m_currentCard = 0;
+    }
+    m_roundsPlayed++;
+
+    if(isGameOver()){
+        printGameEndMessage();
+        return;
+    }
+}
+
+int Mtmchkin::getNumberOfRounds() const {
+    return m_roundsPlayed;
+}
