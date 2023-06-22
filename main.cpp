@@ -15,9 +15,7 @@
 #include "Cards/Merchant.h"
 #include "Cards/Well.h"
 #include "Cards/Treasure.h"
-#include "Players/Ninja.h"
-#include "Players/Healer.h"
-#include "Players/Warrior.h"
+
 
 #include <algorithm>
 #include <sstream>
@@ -76,7 +74,8 @@ bool testCard()
 
 
 int main(){
-    Mtmchkin game("C:\\Users\\Ali Harbaji\\Documents\\GitHub\\MTMCHKIN_HW4\\deck.txt");
+    Mtmchkin game("C:\\Users\\allih\\OneDrive\\Documents\\GitHub\\MTMCHKIN_HW4\\deck.txt");
+//    Mtmchkin game2("deck.txt");
 //    run_test(cardsPrintsTest,"cardsPrintsTest");
 //    run_test(playersPrintsTest,"playersPrintsTest");
 //    run_test(testCard,"Deck creation test");

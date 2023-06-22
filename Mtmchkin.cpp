@@ -1,8 +1,65 @@
 #include <fstream>
 #include "Mtmchkin.h"
+#include <sstream>
+#define SPACE ' '
+
+// counts the number of occurrences of a character in a string
+int count(const string & str, char c){
+    int count = 0;
+    for(char i : str){
+        if(i == c){
+            count++;
+        }
+    }
+
+    return count;
+}
+
+int isValid(const string & input){
+    // use ust::stringstream to split the string into words
+    // and put them in a vector
+    // check if the first word is a valid name (return 2 if not)
+    // check if the second word is a valid class (return 3 if not)
+    // if both are valid return 1
+    std::string name, type;
+    std::istringstream iss(input);
+
+    // print input size
+//    cout << input.size() << endl;
+
+    // check if the input is more than 2 words
+    if (count(input, SPACE) != 1) {
+        cout << count(input, SPACE) << endl;
+        return 2;  // Invalid input
+    }
 
 
-bool inputIsValid(string * inputArray, int size) {
+    // split the input into 2 words and print them
+    for(int i = 0; i < input.size(); i++){
+        if(input[i] == SPACE){
+            name = input.substr(0, i);
+            type = input.substr(i+1, input.size());
+            break;
+        }
+    }
+
+//    cout << name << endl;
+//    cout << type << endl;
+
+    if (iss >> name >> type) {
+        if(name.length() > 15){
+            return 2;  // Invalid name
+        }
+        // Check if the type is either "Dragon" or "Ninja"
+        if (!(type == "Warrior" || type == "Ninja" || type == "Warrior" || type == "Healer")) {
+            return 3;  // invalid class
+        }
+    }
+
+    return 1;
+}
+
+bool cardTypesAreValid(string * inputArray, int size) {
     for(int i = 0; i < size; i++) {
         if(!(inputArray[i] == "Dragon" || inputArray[i] == "Well" || inputArray[i] == "Barfight" || inputArray[i] == "Gremlin"
         || inputArray[i] == "Witch"  || inputArray[i] == "Merchant" || inputArray[i] == "Treasure" || inputArray[i] == "Mana")) {
@@ -12,8 +69,29 @@ bool inputIsValid(string * inputArray, int size) {
     return true;
 }
 
+void Mtmchkin::buildPlayer(const std::string &name, const std::string &type) {
+    cout << "Building player " << name << " of type " << type << endl;
+    if(type == "Ninja"){
+        unique_ptr<Ninja> ninja(new Ninja(name));
+        m_players.push_back(std::move(ninja));
+    } else if(type == "Warrior"){
+        unique_ptr<Warrior> warrior(new Warrior(name));
+        m_players.push_back(std::move(warrior));
+    } else if(type == "Healer"){
+        unique_ptr<Healer> healer(new Healer(name));
+        m_players.push_back(std::move(healer));
+    }
+}
+
+
 Mtmchkin::Mtmchkin(const std::string &fileName) {
-//    m_players.push_back(new Player());
+    // read the cards from the file
+    std::ifstream file(fileName);
+
+    if (!file.is_open()) {
+        throw std::runtime_error("Failed to open file: " + fileName);
+    }
+
     printStartGameMessage();
     printEnterTeamSizeMessage();
     int teamSize = 0;
@@ -23,33 +101,40 @@ Mtmchkin::Mtmchkin(const std::string &fileName) {
         std::cin >> teamSize;
     }
 
-    for(int i = 0; i < teamSize; i++) {
-        printInsertPlayerMessage();
+    std::cin.ignore(); // ignoeres \n at the end of the line
+    for(int i = 0; i < teamSize; i++) { // builds the players
         string name;
-        std::cin >> name;
-        int isInvalid = isInvalid(name);
-        while(isInvalid != 1){ // @TODO: implement isInvalid (make it return 1 if valid, 2 if the player's name is invalid, 3 if the player's class is invalid)
-            if(isInvalid == 2){
+        printInsertPlayerMessage();
+
+        std::getline(std::cin, name);
+        // check weather the name and class are valid (returns 1 if valid, 2 if the player's name is invalid, 3 if the player's class is invalid)
+        int flag = isValid(name);
+        while(flag != 1){ //
+            if(flag == 2){
                 printInvalidName();
-            }else if(isInvalid == 3){
+            }else {
                 printInvalidClass();
             }
-            std::cin >> name;
-            isInvalid = isInvalid(name);
+            std::getline(std::cin, name);
+            flag = isValid(name);
         }
 
-        unique_ptr<Player> player(new Player(name));
-        m_players.push_back(std::move(player));
+        string tempName, tempType;
+        // create a new player and add it to the vector
+        for(int i = 0; i < name.size(); i++){
+            if(name[i] == SPACE){
+                tempName = name.substr(0, i);
+                tempType = name.substr(i+1, name.size());
+                break;
+            }
+        }
+
+        buildPlayer(tempName, tempType);
     }
 
-    std::ifstream file(fileName);
 
-//    if (!file.is_open()) {
-//        throw std::runtime_error("Failed to open file: " + fileName);
-//    }
     vector<string> inputArray;
     int size = 0;
-
     std::string line;
     while (std::getline(file, line)) {
         if (!line.empty()) {
@@ -58,12 +143,18 @@ Mtmchkin::Mtmchkin(const std::string &fileName) {
             size++;
         }
     }
-    bool isValid = inputIsValid(inputArray.data(), size);
+    bool isValid = cardTypesAreValid(inputArray.data(), size);
     if(!isValid) {
-        throw std::runtime_error("Invalid input");
+        throw std::runtime_error("Invalid input concerning the cards");
     }
 
+    // construct the deck
+    buildDeck(inputArray);
 
+    file.close();
+}
+
+void Mtmchkin::buildDeck(const std::vector<std::string> &inputArray) {
     // construct the deck
     for( const string& s: inputArray){
         if(s == "Dragon"){
@@ -78,31 +169,19 @@ Mtmchkin::Mtmchkin(const std::string &fileName) {
         } else if(s == "Gremlin"){
             unique_ptr<Gremlin> gremlin(new Gremlin());
             m_deck.push_back(std::move(gremlin));
-//            m_deck.push_back(unique_ptr<Gremlin>(new Gremlin()));
         } else if(s == "Witch"){
             unique_ptr<Witch> witch(new Witch());
             m_deck.push_back(std::move(witch));
-//            m_deck.push_back(unique_ptr<Witch>(new Witch()));
         } else if(s == "Merchant"){
             unique_ptr<Merchant> merchant(new Merchant());
             m_deck.push_back(std::move(merchant));
-//            m_deck.push_back(unique_ptr<Merchant>(new Merchant()));
         } else if(s == "Treasure"){
             unique_ptr<Treasure> treasure(new Treasure());
             m_deck.push_back(std::move(treasure));
-//            m_deck.push_back(unique_ptr<Treasure>(new Treasure()));
         } else if(s == "Mana"){
             unique_ptr<Mana> mana(new Mana());
             m_deck.push_back(std::move(mana));
-//            m_deck.push_back(unique_ptr<Mana>(new Mana()));
         }
     }
-    // print the deck
-    // without using auto
-
-//    for(int i = 0; i < m_deck.size(); i++){
-//        printf("card %d is: %s\n", i, m_deck[i]->getName().c_str());
-//    }
-
-    file.close();
 }
+

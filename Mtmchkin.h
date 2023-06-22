@@ -5,7 +5,10 @@
 #include <vector>
 #include "Cards/Card.h"
 #include "memory"
-
+#include "Players/Player.h"
+#include "Players/Warrior.h"
+#include "Players/Healer.h"
+#include "Players/Ninja.h"
 #include "Cards/Dragon.h"
 #include "Cards/Witch.h"
 #include "Cards/Merchant.h"
@@ -14,6 +17,7 @@
 #include "Cards/Barfight.h"
 #include "Cards/Mana.h"
 #include "Cards/Gremlin.h"
+
 
 using std::unique_ptr;
 
@@ -66,6 +70,8 @@ public:
 private:
     std::vector<unique_ptr<Player>> m_players;
     std::vector<unique_ptr<Card>> m_deck;
+    void buildPlayer(const std::string &name, const std::string &type);
+    void buildDeck(const std::vector<std::string> &inputArray);
 };
 
 

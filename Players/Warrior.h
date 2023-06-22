@@ -4,7 +4,7 @@
 
 class Warrior : public Player {
 public:
-    Warrior(string name) : Player(name) {};
+    explicit Warrior(const string& name) : Player(name) {};
     int getAttackStrength() const override;
     void barFight() override;
 };
