@@ -72,13 +72,25 @@ bool testCard()
     return true;
 }
 
+bool playersPrintsTest()
+{
+
+    Ninja player1("Itay");
+    Warrior player2("Efrat");
+    Healer player3("Jimmy");
+    cout << player1 << std::endl << player2 << std::endl << player3
+         << std::endl;
+    return true;
+}
+
 
 int main(){
-    Mtmchkin game("C:\\Users\\allih\\OneDrive\\Documents\\GitHub\\MTMCHKIN_HW4\\deck.txt");
+
+//    Mtmchkin game("C:\\Users\\allih\\OneDrive\\Documents\\GitHub\\MTMCHKIN_HW4\\deck.txt");
 //    Mtmchkin game2("deck.txt");
-//    run_test(cardsPrintsTest,"cardsPrintsTest");
-//    run_test(playersPrintsTest,"playersPrintsTest");
-//    run_test(testCard,"Deck creation test");
+    run_test(cardsPrintsTest,"cardsPrintsTest");
+    run_test(playersPrintsTest,"playersPrintsTest");
+    run_test(testCard,"Deck creation test");
 //    run_test(dragonDenTest,"Dragon Den simulation test");
 //    run_test(gremlinCaveTest,"Gremlin Cave simulation test");
 //    run_test(witchLairTest,"Witch Lair simulation test");

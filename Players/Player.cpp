@@ -114,3 +114,8 @@ void Player::barFight() {
 void Player::manaApply() {
     printManaMessage(false);
 }
+
+std::ostream &operator<<(ostream &os, const Player &player) {
+    os << player.m_name << " " << player.m_level << " " << player.m_force << " " << player.m_HP << " " << player.m_coins;
+    return os;
+}

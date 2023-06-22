@@ -32,10 +32,11 @@ public:
     int getLevel() const;
     int getCoins() const;
     string getName() const;
-//    friend std::ostream& operator<<(std::ostream& os, const Player& player);
+    friend std::ostream& operator<<(std::ostream& os, const Player& player);
     virtual void wellFall();
     virtual void barFight();
     virtual void manaApply();
+
 };
 
 #endif

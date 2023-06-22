@@ -185,3 +185,7 @@ void Mtmchkin::buildDeck(const std::vector<std::string> &inputArray) {
     }
 }
 
+void Mtmchkin::playRound() {
+    printRoundStartMessage(0);
+}
+

@@ -98,26 +98,11 @@ CMakeFiles/MTMCHKIN_HW4.dir/Players/Player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MTMCHKIN_HW4.dir/Players/Player.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Players\Player.cpp -o CMakeFiles\MTMCHKIN_HW4.dir\Players\Player.cpp.s
 
-CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/flags.make
-CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/includes_CXX.rsp
-CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.obj: C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/main.cpp
-CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.obj -MF CMakeFiles\MTMCHKIN_HW4.dir\main.cpp.obj.d -o CMakeFiles\MTMCHKIN_HW4.dir\main.cpp.obj -c C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\main.cpp
-
-CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\main.cpp > CMakeFiles\MTMCHKIN_HW4.dir\main.cpp.i
-
-CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\main.cpp -o CMakeFiles\MTMCHKIN_HW4.dir\main.cpp.s
-
 CMakeFiles/MTMCHKIN_HW4.dir/HealthPoints/HealthPoints.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/flags.make
 CMakeFiles/MTMCHKIN_HW4.dir/HealthPoints/HealthPoints.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/includes_CXX.rsp
 CMakeFiles/MTMCHKIN_HW4.dir/HealthPoints/HealthPoints.cpp.obj: C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/HealthPoints/HealthPoints.cpp
 CMakeFiles/MTMCHKIN_HW4.dir/HealthPoints/HealthPoints.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MTMCHKIN_HW4.dir/HealthPoints/HealthPoints.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MTMCHKIN_HW4.dir/HealthPoints/HealthPoints.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MTMCHKIN_HW4.dir/HealthPoints/HealthPoints.cpp.obj -MF CMakeFiles\MTMCHKIN_HW4.dir\HealthPoints\HealthPoints.cpp.obj.d -o CMakeFiles\MTMCHKIN_HW4.dir\HealthPoints\HealthPoints.cpp.obj -c C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\HealthPoints\HealthPoints.cpp
 
 CMakeFiles/MTMCHKIN_HW4.dir/HealthPoints/HealthPoints.cpp.i: cmake_force
@@ -132,7 +117,7 @@ CMakeFiles/MTMCHKIN_HW4.dir/Players/Ninja.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/f
 CMakeFiles/MTMCHKIN_HW4.dir/Players/Ninja.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/includes_CXX.rsp
 CMakeFiles/MTMCHKIN_HW4.dir/Players/Ninja.cpp.obj: C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Players/Ninja.cpp
 CMakeFiles/MTMCHKIN_HW4.dir/Players/Ninja.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MTMCHKIN_HW4.dir/Players/Ninja.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MTMCHKIN_HW4.dir/Players/Ninja.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MTMCHKIN_HW4.dir/Players/Ninja.cpp.obj -MF CMakeFiles\MTMCHKIN_HW4.dir\Players\Ninja.cpp.obj.d -o CMakeFiles\MTMCHKIN_HW4.dir\Players\Ninja.cpp.obj -c C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Players\Ninja.cpp
 
 CMakeFiles/MTMCHKIN_HW4.dir/Players/Ninja.cpp.i: cmake_force
@@ -147,7 +132,7 @@ CMakeFiles/MTMCHKIN_HW4.dir/Players/Healer.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/
 CMakeFiles/MTMCHKIN_HW4.dir/Players/Healer.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/includes_CXX.rsp
 CMakeFiles/MTMCHKIN_HW4.dir/Players/Healer.cpp.obj: C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Players/Healer.cpp
 CMakeFiles/MTMCHKIN_HW4.dir/Players/Healer.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MTMCHKIN_HW4.dir/Players/Healer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MTMCHKIN_HW4.dir/Players/Healer.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MTMCHKIN_HW4.dir/Players/Healer.cpp.obj -MF CMakeFiles\MTMCHKIN_HW4.dir\Players\Healer.cpp.obj.d -o CMakeFiles\MTMCHKIN_HW4.dir\Players\Healer.cpp.obj -c C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Players\Healer.cpp
 
 CMakeFiles/MTMCHKIN_HW4.dir/Players/Healer.cpp.i: cmake_force
@@ -162,7 +147,7 @@ CMakeFiles/MTMCHKIN_HW4.dir/Players/Warrior.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir
 CMakeFiles/MTMCHKIN_HW4.dir/Players/Warrior.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/includes_CXX.rsp
 CMakeFiles/MTMCHKIN_HW4.dir/Players/Warrior.cpp.obj: C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Players/Warrior.cpp
 CMakeFiles/MTMCHKIN_HW4.dir/Players/Warrior.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MTMCHKIN_HW4.dir/Players/Warrior.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MTMCHKIN_HW4.dir/Players/Warrior.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MTMCHKIN_HW4.dir/Players/Warrior.cpp.obj -MF CMakeFiles\MTMCHKIN_HW4.dir\Players\Warrior.cpp.obj.d -o CMakeFiles\MTMCHKIN_HW4.dir\Players\Warrior.cpp.obj -c C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Players\Warrior.cpp
 
 CMakeFiles/MTMCHKIN_HW4.dir/Players/Warrior.cpp.i: cmake_force
@@ -177,7 +162,7 @@ CMakeFiles/MTMCHKIN_HW4.dir/Cards/Card.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/flag
 CMakeFiles/MTMCHKIN_HW4.dir/Cards/Card.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/includes_CXX.rsp
 CMakeFiles/MTMCHKIN_HW4.dir/Cards/Card.cpp.obj: C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Card.cpp
 CMakeFiles/MTMCHKIN_HW4.dir/Cards/Card.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/MTMCHKIN_HW4.dir/Cards/Card.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MTMCHKIN_HW4.dir/Cards/Card.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MTMCHKIN_HW4.dir/Cards/Card.cpp.obj -MF CMakeFiles\MTMCHKIN_HW4.dir\Cards\Card.cpp.obj.d -o CMakeFiles\MTMCHKIN_HW4.dir\Cards\Card.cpp.obj -c C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Cards\Card.cpp
 
 CMakeFiles/MTMCHKIN_HW4.dir/Cards/Card.cpp.i: cmake_force
@@ -192,7 +177,7 @@ CMakeFiles/MTMCHKIN_HW4.dir/Cards/Gremlin.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/f
 CMakeFiles/MTMCHKIN_HW4.dir/Cards/Gremlin.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/includes_CXX.rsp
 CMakeFiles/MTMCHKIN_HW4.dir/Cards/Gremlin.cpp.obj: C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Gremlin.cpp
 CMakeFiles/MTMCHKIN_HW4.dir/Cards/Gremlin.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/MTMCHKIN_HW4.dir/Cards/Gremlin.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/MTMCHKIN_HW4.dir/Cards/Gremlin.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MTMCHKIN_HW4.dir/Cards/Gremlin.cpp.obj -MF CMakeFiles\MTMCHKIN_HW4.dir\Cards\Gremlin.cpp.obj.d -o CMakeFiles\MTMCHKIN_HW4.dir\Cards\Gremlin.cpp.obj -c C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Cards\Gremlin.cpp
 
 CMakeFiles/MTMCHKIN_HW4.dir/Cards/Gremlin.cpp.i: cmake_force
@@ -207,7 +192,7 @@ CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCards/BattleCard.cpp.obj: CMakeFiles/MTM
 CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCards/BattleCard.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/includes_CXX.rsp
 CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCards/BattleCard.cpp.obj: C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/BattleCards/BattleCard.cpp
 CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCards/BattleCard.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCards/BattleCard.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCards/BattleCard.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCards/BattleCard.cpp.obj -MF CMakeFiles\MTMCHKIN_HW4.dir\Cards\BattleCards\BattleCard.cpp.obj.d -o CMakeFiles\MTMCHKIN_HW4.dir\Cards\BattleCards\BattleCard.cpp.obj -c C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Cards\BattleCards\BattleCard.cpp
 
 CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCards/BattleCard.cpp.i: cmake_force
@@ -222,7 +207,7 @@ CMakeFiles/MTMCHKIN_HW4.dir/Cards/Witch.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/fla
 CMakeFiles/MTMCHKIN_HW4.dir/Cards/Witch.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/includes_CXX.rsp
 CMakeFiles/MTMCHKIN_HW4.dir/Cards/Witch.cpp.obj: C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Witch.cpp
 CMakeFiles/MTMCHKIN_HW4.dir/Cards/Witch.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/MTMCHKIN_HW4.dir/Cards/Witch.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/MTMCHKIN_HW4.dir/Cards/Witch.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MTMCHKIN_HW4.dir/Cards/Witch.cpp.obj -MF CMakeFiles\MTMCHKIN_HW4.dir\Cards\Witch.cpp.obj.d -o CMakeFiles\MTMCHKIN_HW4.dir\Cards\Witch.cpp.obj -c C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Cards\Witch.cpp
 
 CMakeFiles/MTMCHKIN_HW4.dir/Cards/Witch.cpp.i: cmake_force
@@ -237,7 +222,7 @@ CMakeFiles/MTMCHKIN_HW4.dir/Cards/Dragon.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/fl
 CMakeFiles/MTMCHKIN_HW4.dir/Cards/Dragon.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/includes_CXX.rsp
 CMakeFiles/MTMCHKIN_HW4.dir/Cards/Dragon.cpp.obj: C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Dragon.cpp
 CMakeFiles/MTMCHKIN_HW4.dir/Cards/Dragon.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/MTMCHKIN_HW4.dir/Cards/Dragon.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/MTMCHKIN_HW4.dir/Cards/Dragon.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MTMCHKIN_HW4.dir/Cards/Dragon.cpp.obj -MF CMakeFiles\MTMCHKIN_HW4.dir\Cards\Dragon.cpp.obj.d -o CMakeFiles\MTMCHKIN_HW4.dir\Cards\Dragon.cpp.obj -c C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Cards\Dragon.cpp
 
 CMakeFiles/MTMCHKIN_HW4.dir/Cards/Dragon.cpp.i: cmake_force
@@ -252,7 +237,7 @@ CMakeFiles/MTMCHKIN_HW4.dir/Cards/Merchant.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/
 CMakeFiles/MTMCHKIN_HW4.dir/Cards/Merchant.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/includes_CXX.rsp
 CMakeFiles/MTMCHKIN_HW4.dir/Cards/Merchant.cpp.obj: C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Merchant.cpp
 CMakeFiles/MTMCHKIN_HW4.dir/Cards/Merchant.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/MTMCHKIN_HW4.dir/Cards/Merchant.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/MTMCHKIN_HW4.dir/Cards/Merchant.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MTMCHKIN_HW4.dir/Cards/Merchant.cpp.obj -MF CMakeFiles\MTMCHKIN_HW4.dir\Cards\Merchant.cpp.obj.d -o CMakeFiles\MTMCHKIN_HW4.dir\Cards\Merchant.cpp.obj -c C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Cards\Merchant.cpp
 
 CMakeFiles/MTMCHKIN_HW4.dir/Cards/Merchant.cpp.i: cmake_force
@@ -267,7 +252,7 @@ CMakeFiles/MTMCHKIN_HW4.dir/Cards/Treasure.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/
 CMakeFiles/MTMCHKIN_HW4.dir/Cards/Treasure.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/includes_CXX.rsp
 CMakeFiles/MTMCHKIN_HW4.dir/Cards/Treasure.cpp.obj: C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Treasure.cpp
 CMakeFiles/MTMCHKIN_HW4.dir/Cards/Treasure.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/MTMCHKIN_HW4.dir/Cards/Treasure.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/MTMCHKIN_HW4.dir/Cards/Treasure.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MTMCHKIN_HW4.dir/Cards/Treasure.cpp.obj -MF CMakeFiles\MTMCHKIN_HW4.dir\Cards\Treasure.cpp.obj.d -o CMakeFiles\MTMCHKIN_HW4.dir\Cards\Treasure.cpp.obj -c C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Cards\Treasure.cpp
 
 CMakeFiles/MTMCHKIN_HW4.dir/Cards/Treasure.cpp.i: cmake_force
@@ -282,7 +267,7 @@ CMakeFiles/MTMCHKIN_HW4.dir/Cards/Well.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/flag
 CMakeFiles/MTMCHKIN_HW4.dir/Cards/Well.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/includes_CXX.rsp
 CMakeFiles/MTMCHKIN_HW4.dir/Cards/Well.cpp.obj: C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Well.cpp
 CMakeFiles/MTMCHKIN_HW4.dir/Cards/Well.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/MTMCHKIN_HW4.dir/Cards/Well.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/MTMCHKIN_HW4.dir/Cards/Well.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MTMCHKIN_HW4.dir/Cards/Well.cpp.obj -MF CMakeFiles\MTMCHKIN_HW4.dir\Cards\Well.cpp.obj.d -o CMakeFiles\MTMCHKIN_HW4.dir\Cards\Well.cpp.obj -c C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Cards\Well.cpp
 
 CMakeFiles/MTMCHKIN_HW4.dir/Cards/Well.cpp.i: cmake_force
@@ -297,7 +282,7 @@ CMakeFiles/MTMCHKIN_HW4.dir/Cards/Barfight.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/
 CMakeFiles/MTMCHKIN_HW4.dir/Cards/Barfight.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/includes_CXX.rsp
 CMakeFiles/MTMCHKIN_HW4.dir/Cards/Barfight.cpp.obj: C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Barfight.cpp
 CMakeFiles/MTMCHKIN_HW4.dir/Cards/Barfight.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/MTMCHKIN_HW4.dir/Cards/Barfight.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/MTMCHKIN_HW4.dir/Cards/Barfight.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MTMCHKIN_HW4.dir/Cards/Barfight.cpp.obj -MF CMakeFiles\MTMCHKIN_HW4.dir\Cards\Barfight.cpp.obj.d -o CMakeFiles\MTMCHKIN_HW4.dir\Cards\Barfight.cpp.obj -c C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Cards\Barfight.cpp
 
 CMakeFiles/MTMCHKIN_HW4.dir/Cards/Barfight.cpp.i: cmake_force
@@ -312,7 +297,7 @@ CMakeFiles/MTMCHKIN_HW4.dir/Cards/Mana.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/flag
 CMakeFiles/MTMCHKIN_HW4.dir/Cards/Mana.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/includes_CXX.rsp
 CMakeFiles/MTMCHKIN_HW4.dir/Cards/Mana.cpp.obj: C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Mana.cpp
 CMakeFiles/MTMCHKIN_HW4.dir/Cards/Mana.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/MTMCHKIN_HW4.dir/Cards/Mana.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/MTMCHKIN_HW4.dir/Cards/Mana.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MTMCHKIN_HW4.dir/Cards/Mana.cpp.obj -MF CMakeFiles\MTMCHKIN_HW4.dir\Cards\Mana.cpp.obj.d -o CMakeFiles\MTMCHKIN_HW4.dir\Cards\Mana.cpp.obj -c C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Cards\Mana.cpp
 
 CMakeFiles/MTMCHKIN_HW4.dir/Cards/Mana.cpp.i: cmake_force
@@ -327,7 +312,7 @@ CMakeFiles/MTMCHKIN_HW4.dir/Mtmchkin.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/flags.
 CMakeFiles/MTMCHKIN_HW4.dir/Mtmchkin.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/includes_CXX.rsp
 CMakeFiles/MTMCHKIN_HW4.dir/Mtmchkin.cpp.obj: C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Mtmchkin.cpp
 CMakeFiles/MTMCHKIN_HW4.dir/Mtmchkin.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/MTMCHKIN_HW4.dir/Mtmchkin.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/MTMCHKIN_HW4.dir/Mtmchkin.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MTMCHKIN_HW4.dir/Mtmchkin.cpp.obj -MF CMakeFiles\MTMCHKIN_HW4.dir\Mtmchkin.cpp.obj.d -o CMakeFiles\MTMCHKIN_HW4.dir\Mtmchkin.cpp.obj -c C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Mtmchkin.cpp
 
 CMakeFiles/MTMCHKIN_HW4.dir/Mtmchkin.cpp.i: cmake_force
@@ -338,11 +323,25 @@ CMakeFiles/MTMCHKIN_HW4.dir/Mtmchkin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MTMCHKIN_HW4.dir/Mtmchkin.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Mtmchkin.cpp -o CMakeFiles\MTMCHKIN_HW4.dir\Mtmchkin.cpp.s
 
+CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/flags.make
+CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/includes_CXX.rsp
+CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.obj: C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/main.cpp
+CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.obj -MF CMakeFiles\MTMCHKIN_HW4.dir\main.cpp.obj.d -o CMakeFiles\MTMCHKIN_HW4.dir\main.cpp.obj -c C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\main.cpp
+
+CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\main.cpp > CMakeFiles\MTMCHKIN_HW4.dir\main.cpp.i
+
+CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\main.cpp -o CMakeFiles\MTMCHKIN_HW4.dir\main.cpp.s
+
 # Object files for target MTMCHKIN_HW4
 MTMCHKIN_HW4_OBJECTS = \
 "CMakeFiles/MTMCHKIN_HW4.dir/utilities.cpp.obj" \
 "CMakeFiles/MTMCHKIN_HW4.dir/Players/Player.cpp.obj" \
-"CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.obj" \
 "CMakeFiles/MTMCHKIN_HW4.dir/HealthPoints/HealthPoints.cpp.obj" \
 "CMakeFiles/MTMCHKIN_HW4.dir/Players/Ninja.cpp.obj" \
 "CMakeFiles/MTMCHKIN_HW4.dir/Players/Healer.cpp.obj" \
@@ -357,14 +356,14 @@ MTMCHKIN_HW4_OBJECTS = \
 "CMakeFiles/MTMCHKIN_HW4.dir/Cards/Well.cpp.obj" \
 "CMakeFiles/MTMCHKIN_HW4.dir/Cards/Barfight.cpp.obj" \
 "CMakeFiles/MTMCHKIN_HW4.dir/Cards/Mana.cpp.obj" \
-"CMakeFiles/MTMCHKIN_HW4.dir/Mtmchkin.cpp.obj"
+"CMakeFiles/MTMCHKIN_HW4.dir/Mtmchkin.cpp.obj" \
+"CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.obj"
 
 # External object files for target MTMCHKIN_HW4
 MTMCHKIN_HW4_EXTERNAL_OBJECTS =
 
 MTMCHKIN_HW4.exe: CMakeFiles/MTMCHKIN_HW4.dir/utilities.cpp.obj
 MTMCHKIN_HW4.exe: CMakeFiles/MTMCHKIN_HW4.dir/Players/Player.cpp.obj
-MTMCHKIN_HW4.exe: CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.obj
 MTMCHKIN_HW4.exe: CMakeFiles/MTMCHKIN_HW4.dir/HealthPoints/HealthPoints.cpp.obj
 MTMCHKIN_HW4.exe: CMakeFiles/MTMCHKIN_HW4.dir/Players/Ninja.cpp.obj
 MTMCHKIN_HW4.exe: CMakeFiles/MTMCHKIN_HW4.dir/Players/Healer.cpp.obj
@@ -380,6 +379,7 @@ MTMCHKIN_HW4.exe: CMakeFiles/MTMCHKIN_HW4.dir/Cards/Well.cpp.obj
 MTMCHKIN_HW4.exe: CMakeFiles/MTMCHKIN_HW4.dir/Cards/Barfight.cpp.obj
 MTMCHKIN_HW4.exe: CMakeFiles/MTMCHKIN_HW4.dir/Cards/Mana.cpp.obj
 MTMCHKIN_HW4.exe: CMakeFiles/MTMCHKIN_HW4.dir/Mtmchkin.cpp.obj
+MTMCHKIN_HW4.exe: CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.obj
 MTMCHKIN_HW4.exe: CMakeFiles/MTMCHKIN_HW4.dir/build.make
 MTMCHKIN_HW4.exe: CMakeFiles/MTMCHKIN_HW4.dir/linklibs.rsp
 MTMCHKIN_HW4.exe: CMakeFiles/MTMCHKIN_HW4.dir/objects1.rsp

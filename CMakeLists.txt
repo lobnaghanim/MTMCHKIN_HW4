@@ -10,7 +10,6 @@ add_executable(MTMCHKIN_HW4
         utilities.h
         Players/Player.cpp
         Players/Player.h
-        main.cpp
         HealthPoints/HealthPoints.cpp
         HealthPoints/HealthPoints.h
         Players/Ninja.cpp
@@ -42,7 +41,7 @@ add_executable(MTMCHKIN_HW4
         Mtmchkin.h
         Mtmchkin.cpp
 
-
+        main.cpp
 #        test.cpp
 
         )
