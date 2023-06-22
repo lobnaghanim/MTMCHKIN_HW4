@@ -86,10 +86,20 @@ bool playersPrintsTest()
 
 int main(){
 
-    Mtmchkin game("C:\\Users\\allih\\OneDrive\\Documents\\GitHub\\MTMCHKIN_HW4\\deck.txt");
-    while(!game.isGameOver()){
-        game.playRound();
-    }
+//    Mtmchkin game("C:\\Users\\allih\\OneDrive\\Documents\\GitHub\\MTMCHKIN_HW4\\deck.txt");
+//    while(!game.isGameOver()){
+//        game.playRound();
+//    }
+
+    Healer healer("Ali");
+
+    cout << healer << endl;
+
+    Treasure t;
+    cout << t << endl;
+
+
+
 //
 //    vector<char> v = {'a','b','c','d','e','f', 'm'};
 //    vector<int> w = {0, 4, 3};
