@@ -170,7 +170,10 @@ int main(){
     {
         cout<<e.what()<<endl;
     }
-
+    catch (const DeckFileInvalidSize& e)
+    {
+        cout<<e.what()<<endl;
+    }
 
 //    Mtmchkin game("C:\\Users\\allih\\OneDrive\\Documents\\GitHub\\MTMCHKIN_HW4\\deck.txt");
 //    while(!game.isGameOver()){

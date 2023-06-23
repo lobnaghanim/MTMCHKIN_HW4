@@ -140,6 +140,7 @@ Mtmchkin::Mtmchkin(const std::string &fileName) {
             size++;
         }
     }
+    if(size<5) throw DeckFileInvalidSize();
     //cout<<size<<"THIS IS THE SIZE OF THE CARD ARRAY"<<endl;
     int lineNumber = cardTypesAreValid(inputArray.data(), size);
     if(lineNumber<size) {
