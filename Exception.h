@@ -14,16 +14,30 @@ public:
 
 class DeckFileFormatError : public std::exception {
 private:
-    int lineNumber;
+    string errorMessage;
 
 public:
-    explicit DeckFileFormatError(int lineNumber) : lineNumber(lineNumber) {}
+    explicit DeckFileFormatError(int lineNumber) {
+        errorMessage = "Deck File Error: File format error in line " + to_string(lineNumber);
+    }
 
     const char* what() const noexcept override {
-        string error = "Deck File Error: File format error in line " + to_string(lineNumber);
-        return error.c_str();
+        return errorMessage.c_str();
     }
 };
+
+//class DeckFileFormatError : public std::exception {
+//private:
+//    int lineNumber;
+//
+//public:
+//    explicit DeckFileFormatError(int lineNumber) : lineNumber(lineNumber) {}
+//
+//    const char* what() const noexcept override {
+//        string error = "Deck File Error: File format error in line " + to_string(lineNumber);
+//        return error.c_str();
+//    }
+//};
 
 class DeckFileInvalidSize : public std::exception {
 public:
