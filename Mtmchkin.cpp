@@ -118,10 +118,10 @@ Mtmchkin::Mtmchkin(const std::string &fileName) {
 
         string tempName, tempType;
         // create a new player and add it to the vector
-        for(int i = 0; i < name.size(); i++){
-            if(name[i] == SPACE){
-                tempName = name.substr(0, i);
-                tempType = name.substr(i+1, name.size());
+        for(int e = 0; i < name.size(); e++){
+            if(name[e] == SPACE){
+                tempName = name.substr(0, e);
+                tempType = name.substr(e+1, name.size());
                 break;
             }
         }
