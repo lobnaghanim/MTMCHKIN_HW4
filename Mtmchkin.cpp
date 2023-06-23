@@ -1,4 +1,5 @@
 #include "Mtmchkin.h"
+#include "Exception.h"
 #define SPACE ' '
 
 // counts the number of occurrences of a character in a string
@@ -78,6 +79,10 @@ void Mtmchkin::buildPlayer(const std::string &name, const std::string &type) {
 Mtmchkin::Mtmchkin(const std::string &fileName) {
     // read the cards from the file
     std::ifstream file(fileName);
+    if(!file.good())
+    {
+        throw DeckFileNotFound();
+    }
 
     if (!file.is_open()) {
         throw std::runtime_error("Failed to open file: " + fileName);

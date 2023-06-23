@@ -15,6 +15,7 @@
 #include "Cards/Merchant.h"
 #include "Cards/Well.h"
 #include "Cards/Treasure.h"
+#include "Exception.h"
 
 
 #include <algorithm>
@@ -157,6 +158,14 @@ bool dragonDenTest()
 }
 
 int main(){
+
+    try{
+        Mtmchkin game("C:\\Users\\97252\\Documents\\GitHub\\HW2\\MTMCHKIN_HW4\\deck.txt");
+    }
+    catch (const DeckFileException& e)
+    {
+        e.what();
+    }
 
 //    Mtmchkin game("C:\\Users\\allih\\OneDrive\\Documents\\GitHub\\MTMCHKIN_HW4\\deck.txt");
 //    while(!game.isGameOver()){
