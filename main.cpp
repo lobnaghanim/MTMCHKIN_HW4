@@ -160,11 +160,11 @@ bool dragonDenTest()
 int main(){
 
     try{
-        Mtmchkin game("C:\\Users\\97252\\Documents\\GitHub\\HW2\\MTMCHKIN_HW4\\deck.txt");
+        Mtmchkin game("C:\\Users\\97252\\Documents\\GitHub\\HW2\\MTMCHKIN_HW4\\house.txt");
     }
-    catch (const DeckFileException& e)
+    catch (const DeckFileNotFound& e)
     {
-        e.what();
+        cout<<e.what()<<endl;
     }
 
 //    Mtmchkin game("C:\\Users\\allih\\OneDrive\\Documents\\GitHub\\MTMCHKIN_HW4\\deck.txt");
