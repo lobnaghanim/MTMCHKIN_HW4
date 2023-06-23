@@ -162,15 +162,7 @@ int main(){
     try{
         Mtmchkin game("C:\\Users\\allih\\OneDrive\\Documents\\GitHub\\MTMCHKIN_HW4\\deck.txt");
     }
-    catch (const DeckFileNotFound& e)
-    {
-        cout<<e.what()<<endl;
-    }
-    catch (const DeckFileFormatError& e)
-    {
-        cout<<e.what()<<endl;
-    }
-    catch (const DeckFileInvalidSize& e)
+    catch (const Exception& e)
     {
         cout<<e.what()<<endl;
     }
