@@ -29,7 +29,7 @@ int isValid(const string & input){
 
 
     // split the input into 2 words and print them
-    for(int i = 0; i < input.size(); i++){
+    for(int i = 0; i < (int) input.size(); i++){
         if(input[i] == SPACE){
             name = input.substr(0, i);
             type = input.substr(i+1, input.size());
@@ -113,7 +113,7 @@ Mtmchkin::Mtmchkin(const std::string &fileName) {
 
         string tempName, tempType;
         // create a new player and add it to the vector
-        for(int e = 0; i < name.size(); e++){
+        for(int e = 0; i < (int) name.size(); e++){
             if(name[e] == SPACE){
                 tempName = name.substr(0, e);
                 tempType = name.substr(e+1, name.size());
@@ -184,12 +184,12 @@ void Mtmchkin::buildDeck(const std::vector<std::string> &inputArray) {
 
 bool Mtmchkin::isGameOver() const {
     int count = 0;
-    for(int i = 0; i < m_players.size(); i++){
+    for(int i = 0; i < (int)m_players.size(); i++){
         if(m_players[i]->isKnockedOut() || m_players[i]->getLevel() >= MAXLVL){
             count++;
         }
     }
-    if(count == m_players.size()){
+    if(count == (int) m_players.size()){
         return true;
     }
     return false;
@@ -204,7 +204,7 @@ void Mtmchkin::playRound() {
     // print the round start message
     printRoundStartMessage(m_roundsPlayed + 1);
 
-    for(int i = 0; i < m_players.size(); i++){
+    for(int i = 0; i < (int) m_players.size(); i++){
         if(m_players[i]->isKnockedOut() || m_players[i]->getLevel() >= MAXLVL){
             continue;
         }
@@ -221,7 +221,7 @@ void Mtmchkin::playRound() {
 
     // cyclical increment
     m_currentCard++;
-    if(m_currentCard == m_deck.size()){
+    if(m_currentCard == (int) m_deck.size()){
         m_currentCard = 0;
     }
     m_roundsPlayed++;
