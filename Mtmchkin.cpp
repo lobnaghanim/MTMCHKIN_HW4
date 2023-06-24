@@ -1,17 +1,7 @@
 #include "Mtmchkin.h"
 #define SPACE ' '
 
-// counts the number of occurrences of a character in a string
-int count(const string & str, char c){
-    int count = 0;
-    for(char i : str){
-        if(i == c){
-            count++;
-        }
-    }
 
-    return count;
-}
 
 int isValid(const string & input){
     // use ust::stringstream to split the string into words
@@ -23,15 +13,22 @@ int isValid(const string & input){
     std::istringstream iss(input);
 
     // check if the input is more than 2 words
-    if (count(input, SPACE) != 1) {
-        return 2;  // Invalid input
-    }
+//    if (count(input, SPACE) != 1) {
+//        return 2;  // Invalid input
+//    }
 
 
     // split the input into 2 words and print them
     for(int i = 0; i < (int) input.size(); i++){
         if(input[i] == SPACE){
             name = input.substr(0, i);
+            // check if name contains integers
+            for(char c : name){
+                // checks if c is not a capital/small letter
+                if(!(c >= 'A' && c <= 'Z') && !(c >= 'a' && c <= 'z')){
+                    return 2;  // Invalid name
+                }
+            }
             type = input.substr(i+1, input.size());
             break;
         }

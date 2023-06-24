@@ -160,7 +160,7 @@ bool dragonDenTest()
 int main(){
 //
 //    try{
-//        Mtmchkin game("C:\\Users\\allih\\OneDrive\\Documents\\GitHub\\MTMCHKIN_HW4\\deck.txt");
+        Mtmchkin game("C:\\Users\\allih\\OneDrive\\Documents\\GitHub\\MTMCHKIN_HW4\\deck.txt");
 //    }
 //    catch (const Exception& e)
 //    {
