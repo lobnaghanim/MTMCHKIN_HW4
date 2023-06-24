@@ -99,9 +99,9 @@ std::string Player::getName() const {
     return this->m_name;
 }
 
-HealthPoints Player::getHP() const {
-    return this->m_HP;
-}
+//HealthPoints Player::getHP() const {
+//    return this->m_HP;
+//}
 
 int Player::getForce() const {
     return m_force;

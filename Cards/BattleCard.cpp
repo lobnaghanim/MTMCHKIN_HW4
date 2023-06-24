@@ -1,4 +1,4 @@
-#include "Cards/BattleCard.h"
+#include "BattleCard.h"
 
 BattleCard::BattleCard(string name, int force, int loot, int damage) : Card(name) {
     m_force = force;
@@ -6,13 +6,6 @@ BattleCard::BattleCard(string name, int force, int loot, int damage) : Card(name
     m_damage = damage;
 }
 
-int BattleCard::getDamage() const {
-    return m_damage;
-}
-
-int BattleCard::getLoot() const {
-    return m_loot;
-}
 
 int BattleCard::getForce() const {
     return m_force;

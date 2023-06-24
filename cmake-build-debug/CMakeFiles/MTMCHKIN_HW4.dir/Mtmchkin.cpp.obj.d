@@ -180,10 +180,9 @@ CMakeFiles/MTMCHKIN_HW4.dir/Mtmchkin.cpp.obj: \
  C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Players/Ninja.h \
  C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Cards/Dragon.h \
  C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Cards/BattleCard.h \
- C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Card.h \
+ C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Cards/Card.h \
  C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Cards/Witch.h \
  C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Cards/Merchant.h \
- C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Cards/Card.h \
  C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Cards/Treasure.h \
  C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Cards/Well.h \
  C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Cards/Barfight.h \

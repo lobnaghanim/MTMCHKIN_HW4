@@ -5,14 +5,14 @@ using namespace std;
 
 #include <stdexcept>
 
-class Exception{
+class Exception : public std::exception{
 public:
-    virtual string what() const = 0;
+    virtual string what() = 0;
 };
 
 class DeckFileNotFound : public Exception {
 public:
-    string what() const override {
+    string what()  override {
         return "Deck File Error: File not found";
     }
 };
@@ -26,14 +26,14 @@ public:
         errorMessage = "Deck File Error: File format error in line " + to_string(lineNumber);
     }
 
-    string what() const override {
+    string what() override {
         return errorMessage;
     }
 };
 
 class DeckFileInvalidSize : public Exception {
 public:
-    string what() const override {
+    string what() override {
         return "Deck File Error: Deck size is invalid";
     }
 };

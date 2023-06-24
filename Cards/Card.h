@@ -9,7 +9,6 @@ using namespace std;
 class Card{
 public:
     explicit Card(string name);
-    string getName();
     virtual void applyEncounter(Player &player) = 0;
     virtual ~Card() = default;
     Card(const Card& other) = delete;

@@ -9,7 +9,7 @@ using namespace std;
 
 class Player {
     string m_name;
-    int m_level;
+    int m_level; // gives off warning
     int m_force;
     HealthPoints m_HP;
     int m_coins;
@@ -29,7 +29,6 @@ public:
     void damage(int dmg);
     bool isKnockedOut() const;
     bool pay(int amount);
-    HealthPoints getHP() const;
     int getForce() const;
     int getLevel() const;
     int getCoins() const;

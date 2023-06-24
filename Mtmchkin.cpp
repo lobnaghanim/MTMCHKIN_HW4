@@ -241,12 +241,12 @@ void Mtmchkin::printLeaderBoard() const {
     printLeaderBoardStartMessage();
     // print the leader board
     int rank = 1;
-    for(int i = 0; i < m_winners_indexes.size(); i++){
+    for(int i = 0; i < (int) m_winners_indexes.size(); i++){
         printPlayerLeaderBoard(rank,*m_players[m_winners_indexes[i]]);
         rank++;
     }
     // for each player that is not a winner and not a loser
-    for(int i = 0; i < m_players.size(); i++){
+    for(int i = 0; i < (int) m_players.size(); i++){
         if(m_players[i]->isKnockedOut() || m_players[i]->getLevel() >= MAXLVL){
             continue;
         }
@@ -254,7 +254,7 @@ void Mtmchkin::printLeaderBoard() const {
         rank++;
     }
 
-    for(int i = m_losers_indexes.size() - 1; i >= 0; i--){
+    for(int i = (int) m_losers_indexes.size() - 1; i >= 0; i--){
         printPlayerLeaderBoard(rank,*m_players[m_losers_indexes[i]]);
         rank++;
     }

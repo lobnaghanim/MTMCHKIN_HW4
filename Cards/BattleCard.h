@@ -1,15 +1,13 @@
 #ifndef BATTLECARD_H
 #define BATTLECARD_H
 
-#include "Cards/Card.h"
+#include "Card.h"
 
 
 
 class BattleCard : public Card{
 public:
     explicit BattleCard(string name,int force, int loot, int damage);
-    int getDamage() const;
-    int getLoot() const;
     int getForce() const;
 //    virtual void applyEncounter(Player &player) = 0;
 protected:
