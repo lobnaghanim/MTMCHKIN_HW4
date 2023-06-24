@@ -188,20 +188,20 @@ CMakeFiles/MTMCHKIN_HW4.dir/Cards/Gremlin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MTMCHKIN_HW4.dir/Cards/Gremlin.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Cards\Gremlin.cpp -o CMakeFiles\MTMCHKIN_HW4.dir\Cards\Gremlin.cpp.s
 
-CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCards/BattleCard.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/flags.make
-CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCards/BattleCard.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/includes_CXX.rsp
-CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCards/BattleCard.cpp.obj: C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/BattleCards/BattleCard.cpp
-CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCards/BattleCard.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCards/BattleCard.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCards/BattleCard.cpp.obj -MF CMakeFiles\MTMCHKIN_HW4.dir\Cards\BattleCards\BattleCard.cpp.obj.d -o CMakeFiles\MTMCHKIN_HW4.dir\Cards\BattleCards\BattleCard.cpp.obj -c C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Cards\BattleCards\BattleCard.cpp
+CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCard.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/flags.make
+CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCard.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/includes_CXX.rsp
+CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCard.cpp.obj: C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/BattleCard.cpp
+CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCard.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCard.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCard.cpp.obj -MF CMakeFiles\MTMCHKIN_HW4.dir\Cards\BattleCard.cpp.obj.d -o CMakeFiles\MTMCHKIN_HW4.dir\Cards\BattleCard.cpp.obj -c C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Cards\BattleCard.cpp
 
-CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCards/BattleCard.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCards/BattleCard.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Cards\BattleCards\BattleCard.cpp > CMakeFiles\MTMCHKIN_HW4.dir\Cards\BattleCards\BattleCard.cpp.i
+CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCard.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Cards\BattleCard.cpp > CMakeFiles\MTMCHKIN_HW4.dir\Cards\BattleCard.cpp.i
 
-CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCards/BattleCard.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCards/BattleCard.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Cards\BattleCards\BattleCard.cpp -o CMakeFiles\MTMCHKIN_HW4.dir\Cards\BattleCards\BattleCard.cpp.s
+CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCard.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Cards\BattleCard.cpp -o CMakeFiles\MTMCHKIN_HW4.dir\Cards\BattleCard.cpp.s
 
 CMakeFiles/MTMCHKIN_HW4.dir/Cards/Witch.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/flags.make
 CMakeFiles/MTMCHKIN_HW4.dir/Cards/Witch.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/includes_CXX.rsp
@@ -348,7 +348,7 @@ MTMCHKIN_HW4_OBJECTS = \
 "CMakeFiles/MTMCHKIN_HW4.dir/Players/Warrior.cpp.obj" \
 "CMakeFiles/MTMCHKIN_HW4.dir/Cards/Card.cpp.obj" \
 "CMakeFiles/MTMCHKIN_HW4.dir/Cards/Gremlin.cpp.obj" \
-"CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCards/BattleCard.cpp.obj" \
+"CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCard.cpp.obj" \
 "CMakeFiles/MTMCHKIN_HW4.dir/Cards/Witch.cpp.obj" \
 "CMakeFiles/MTMCHKIN_HW4.dir/Cards/Dragon.cpp.obj" \
 "CMakeFiles/MTMCHKIN_HW4.dir/Cards/Merchant.cpp.obj" \
@@ -370,7 +370,7 @@ MTMCHKIN_HW4.exe: CMakeFiles/MTMCHKIN_HW4.dir/Players/Healer.cpp.obj
 MTMCHKIN_HW4.exe: CMakeFiles/MTMCHKIN_HW4.dir/Players/Warrior.cpp.obj
 MTMCHKIN_HW4.exe: CMakeFiles/MTMCHKIN_HW4.dir/Cards/Card.cpp.obj
 MTMCHKIN_HW4.exe: CMakeFiles/MTMCHKIN_HW4.dir/Cards/Gremlin.cpp.obj
-MTMCHKIN_HW4.exe: CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCards/BattleCard.cpp.obj
+MTMCHKIN_HW4.exe: CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCard.cpp.obj
 MTMCHKIN_HW4.exe: CMakeFiles/MTMCHKIN_HW4.dir/Cards/Witch.cpp.obj
 MTMCHKIN_HW4.exe: CMakeFiles/MTMCHKIN_HW4.dir/Cards/Dragon.cpp.obj
 MTMCHKIN_HW4.exe: CMakeFiles/MTMCHKIN_HW4.dir/Cards/Merchant.cpp.obj

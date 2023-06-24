@@ -9,7 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Barfight.cpp" "CMakeFiles/MTMCHKIN_HW4.dir/Cards/Barfight.cpp.obj" "gcc" "CMakeFiles/MTMCHKIN_HW4.dir/Cards/Barfight.cpp.obj.d"
-  "C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/BattleCards/BattleCard.cpp" "CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCards/BattleCard.cpp.obj" "gcc" "CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCards/BattleCard.cpp.obj.d"
+  "C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/BattleCard.cpp" "CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCard.cpp.obj" "gcc" "CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCard.cpp.obj.d"
   "C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Card.cpp" "CMakeFiles/MTMCHKIN_HW4.dir/Cards/Card.cpp.obj" "gcc" "CMakeFiles/MTMCHKIN_HW4.dir/Cards/Card.cpp.obj.d"
   "C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Dragon.cpp" "CMakeFiles/MTMCHKIN_HW4.dir/Cards/Dragon.cpp.obj" "gcc" "CMakeFiles/MTMCHKIN_HW4.dir/Cards/Dragon.cpp.obj.d"
   "C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Gremlin.cpp" "CMakeFiles/MTMCHKIN_HW4.dir/Cards/Gremlin.cpp.obj" "gcc" "CMakeFiles/MTMCHKIN_HW4.dir/Cards/Gremlin.cpp.obj.d"

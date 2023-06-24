@@ -179,12 +179,12 @@ CMakeFiles/MTMCHKIN_HW4.dir/Mtmchkin.cpp.obj: \
  C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Players/Healer.h \
  C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Players/Ninja.h \
  C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Cards/Dragon.h \
- C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/BattleCards/BattleCard.h \
+ C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Cards/BattleCard.h \
  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Card.h \
  C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Cards/Witch.h \
  C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Cards/Merchant.h \
- C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Cards/Treasure.h \
  C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Cards/Card.h \
+ C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Cards/Treasure.h \
  C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Cards/Well.h \
  C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Cards/Barfight.h \
  C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Cards/Mana.h \
@@ -194,5 +194,5 @@ CMakeFiles/MTMCHKIN_HW4.dir/Mtmchkin.cpp.obj: \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/fstream.tcc \
- C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\utilities.h \
- C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Exception.h
+ C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Exception.h \
+ C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\utilities.h

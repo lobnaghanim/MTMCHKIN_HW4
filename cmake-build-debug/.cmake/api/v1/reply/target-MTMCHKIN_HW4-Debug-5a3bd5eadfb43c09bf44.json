@@ -261,12 +261,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Cards/BattleCards/BattleCard.cpp",
+			"path" : "Cards/BattleCard.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Cards/BattleCards/BattleCard.h",
+			"path" : "Cards/BattleCard.h",
 			"sourceGroupIndex" : 1
 		},
 		{

@@ -1,7 +1,7 @@
 #ifndef MERCHANTCARD_H
 #define MERCHANTCARD_H
 
-#include "Cards/Card.h"
+#include "Card.h"
 
 class Merchant : public Card{
 public:

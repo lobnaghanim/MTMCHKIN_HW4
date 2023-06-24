@@ -152,29 +152,29 @@ Cards/Barfight.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MTMCHKIN_HW4.dir\build.make CMakeFiles/MTMCHKIN_HW4.dir/Cards/Barfight.cpp.s
 .PHONY : Cards/Barfight.cpp.s
 
-Cards/BattleCards/BattleCard.obj: Cards/BattleCards/BattleCard.cpp.obj
-.PHONY : Cards/BattleCards/BattleCard.obj
+Cards/BattleCard.obj: Cards/BattleCard.cpp.obj
+.PHONY : Cards/BattleCard.obj
 
 # target to build an object file
-Cards/BattleCards/BattleCard.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MTMCHKIN_HW4.dir\build.make CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCards/BattleCard.cpp.obj
-.PHONY : Cards/BattleCards/BattleCard.cpp.obj
+Cards/BattleCard.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MTMCHKIN_HW4.dir\build.make CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCard.cpp.obj
+.PHONY : Cards/BattleCard.cpp.obj
 
-Cards/BattleCards/BattleCard.i: Cards/BattleCards/BattleCard.cpp.i
-.PHONY : Cards/BattleCards/BattleCard.i
+Cards/BattleCard.i: Cards/BattleCard.cpp.i
+.PHONY : Cards/BattleCard.i
 
 # target to preprocess a source file
-Cards/BattleCards/BattleCard.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MTMCHKIN_HW4.dir\build.make CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCards/BattleCard.cpp.i
-.PHONY : Cards/BattleCards/BattleCard.cpp.i
+Cards/BattleCard.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MTMCHKIN_HW4.dir\build.make CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCard.cpp.i
+.PHONY : Cards/BattleCard.cpp.i
 
-Cards/BattleCards/BattleCard.s: Cards/BattleCards/BattleCard.cpp.s
-.PHONY : Cards/BattleCards/BattleCard.s
+Cards/BattleCard.s: Cards/BattleCard.cpp.s
+.PHONY : Cards/BattleCard.s
 
 # target to generate assembly for a file
-Cards/BattleCards/BattleCard.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MTMCHKIN_HW4.dir\build.make CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCards/BattleCard.cpp.s
-.PHONY : Cards/BattleCards/BattleCard.cpp.s
+Cards/BattleCard.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MTMCHKIN_HW4.dir\build.make CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCard.cpp.s
+.PHONY : Cards/BattleCard.cpp.s
 
 Cards/Card.obj: Cards/Card.cpp.obj
 .PHONY : Cards/Card.obj
@@ -572,9 +572,9 @@ help:
 	@echo ... Cards/Barfight.obj
 	@echo ... Cards/Barfight.i
 	@echo ... Cards/Barfight.s
-	@echo ... Cards/BattleCards/BattleCard.obj
-	@echo ... Cards/BattleCards/BattleCard.i
-	@echo ... Cards/BattleCards/BattleCard.s
+	@echo ... Cards/BattleCard.obj
+	@echo ... Cards/BattleCard.i
+	@echo ... Cards/BattleCard.s
 	@echo ... Cards/Card.obj
 	@echo ... Cards/Card.i
 	@echo ... Cards/Card.s

@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/MTMCHKIN_HW4.dir/Cards/Barfight.cpp.obj"
   "CMakeFiles/MTMCHKIN_HW4.dir/Cards/Barfight.cpp.obj.d"
-  "CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCards/BattleCard.cpp.obj"
-  "CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCards/BattleCard.cpp.obj.d"
+  "CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCard.cpp.obj"
+  "CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCard.cpp.obj.d"
   "CMakeFiles/MTMCHKIN_HW4.dir/Cards/Card.cpp.obj"
   "CMakeFiles/MTMCHKIN_HW4.dir/Cards/Card.cpp.obj.d"
   "CMakeFiles/MTMCHKIN_HW4.dir/Cards/Dragon.cpp.obj"

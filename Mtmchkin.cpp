@@ -1,5 +1,4 @@
 #include "Mtmchkin.h"
-#include "Exception.h"
 #define SPACE ' '
 
 // counts the number of occurrences of a character in a string
@@ -80,17 +79,13 @@ void Mtmchkin::buildPlayer(const std::string &name, const std::string &type) {
 Mtmchkin::Mtmchkin(const std::string &fileName) {
     // read the cards from the file
     std::ifstream file(fileName);
-    if(!file.good())
-    {
-        throw DeckFileNotFound();
-    }
 
-    if (!file.is_open()) {
-        throw std::runtime_error("Failed to open file: " + fileName);
-    }
 
     printStartGameMessage();
     printEnterTeamSizeMessage();
+    if(!file.good() || !file.is_open()) {
+        throw DeckFileNotFound();
+    }
     int teamSize = 0;
     std::cin >> teamSize;
     while(teamSize <= 1 || teamSize >= 7) {
@@ -98,7 +93,7 @@ Mtmchkin::Mtmchkin(const std::string &fileName) {
         std::cin >> teamSize;
     }
 
-    std::cin.ignore(); // ignoeres \n at the end of the line
+    std::cin.ignore(); // ignores \n at the end of the line
     for(int i = 0; i < teamSize; i++) { // builds the players
         string name;
         printInsertPlayerMessage();

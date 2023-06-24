@@ -22,8 +22,8 @@ add_executable(MTMCHKIN_HW4
         Cards/Card.h
         Cards/Gremlin.cpp
         Cards/Gremlin.h
-        Cards/BattleCards/BattleCard.cpp
-        Cards/BattleCards/BattleCard.h
+        Cards/BattleCard.cpp
+        Cards/BattleCard.h
         Cards/Witch.cpp
         Cards/Witch.h
         Cards/Dragon.cpp

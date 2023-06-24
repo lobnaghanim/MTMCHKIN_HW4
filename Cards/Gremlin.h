@@ -1,6 +1,6 @@
 #ifndef GREMLIN_H
 #define GREMLIN_H
-#include "../Cards/BattleCards/BattleCard.h"
+#include "BattleCard.h"
 
 class Gremlin : public BattleCard{
 public:

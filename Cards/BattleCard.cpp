@@ -1,4 +1,4 @@
-#include "BattleCard.h"
+#include "Cards/BattleCard.h"
 
 BattleCard::BattleCard(string name, int force, int loot, int damage) : Card(name) {
     m_force = force;

@@ -1,7 +1,7 @@
 CMakeFiles/MTMCHKIN_HW4.dir/Cards/Gremlin.cpp.obj: \
  C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Cards\Gremlin.cpp \
  C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Cards\Gremlin.h \
- C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/BattleCards/BattleCard.h \
+ C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Cards\BattleCard.h \
  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Card.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/string \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \

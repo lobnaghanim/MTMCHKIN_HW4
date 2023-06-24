@@ -16,7 +16,7 @@
 #include "Cards/Well.h"
 #include "Cards/Treasure.h"
 #include "Exception.h"
-
+#include <exception>
 
 #include <algorithm>
 #include <sstream>
@@ -152,20 +152,20 @@ bool dragonDenTest()
     const string tmp_file("dragonDen_test");
     string input("2\nJimmy Healer\nPikachu Warrior");
     string deck("Dragon\nDragon\nDragon\nDragon\nDragon");
-//    string expectedOutputFilename("tests/dragonDen_test_expected.txt");
     string expectedOutputFilename("tests/dragonDen_test_expected.txt");
+//    string expectedOutputFilename("tests/dragonDen_test_expected.txt");
     return GeneralGameSimulationTest(tmp_file, input, deck, expectedOutputFilename);
 }
 
 int main(){
-
-    try{
-        Mtmchkin game("C:\\Users\\allih\\OneDrive\\Documents\\GitHub\\MTMCHKIN_HW4\\deck.txt");
-    }
-    catch (const Exception& e)
-    {
-        cout<<e.what()<<endl;
-    }
+//
+//    try{
+//        Mtmchkin game("C:\\Users\\allih\\OneDrive\\Documents\\GitHub\\MTMCHKIN_HW4\\deck.txt");
+//    }
+//    catch (const Exception& e)
+//    {
+//        cout<<e.what()<<endl;
+//    }
 
 //    Mtmchkin game("C:\\Users\\allih\\OneDrive\\Documents\\GitHub\\MTMCHKIN_HW4\\deck.txt");
 //    while(!game.isGameOver()){
@@ -219,7 +219,12 @@ int main(){
     run_test(cardsPrintsTest,"cardsPrintsTest");
     run_test(playersPrintsTest,"playersPrintsTest");
     run_test(testCard,"Deck creation test");
-//    run_test(dragonDenTest,"Dragon Den simulation test");
+
+//    try{
+//        run_test(dragonDenTest,"Dragon Den simulation test");
+//    }catch (const Exception& e) {
+//        cout << e.what() << endl;
+//    }
 //    run_test(gremlinCaveTest,"Gremlin Cave simulation test");
 //    run_test(witchLairTest,"Witch Lair simulation test");
 //    run_test(nonMostersTest,"Non monsters cards simulation test");

@@ -155,8 +155,8 @@ CMakeFiles/MTMCHKIN_HW4.dir/Cards/Barfight.cpp.obj: C:/Users/allih/OneDrive/Docu
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_function.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Players/Player.h
 
-CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCards/BattleCard.cpp.obj: C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/BattleCards/BattleCard.cpp \
-  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/BattleCards/BattleCard.h \
+CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCard.cpp.obj: C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/BattleCard.cpp \
+  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/BattleCard.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Card.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/string \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -464,7 +464,7 @@ CMakeFiles/MTMCHKIN_HW4.dir/Cards/Card.cpp.obj: C:/Users/allih/OneDrive/Document
 
 CMakeFiles/MTMCHKIN_HW4.dir/Cards/Dragon.cpp.obj: C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Dragon.cpp \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Dragon.h \
-  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/BattleCards/BattleCard.h \
+  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/BattleCard.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Card.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/string \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -619,7 +619,7 @@ CMakeFiles/MTMCHKIN_HW4.dir/Cards/Dragon.cpp.obj: C:/Users/allih/OneDrive/Docume
 
 CMakeFiles/MTMCHKIN_HW4.dir/Cards/Gremlin.cpp.obj: C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Gremlin.cpp \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Gremlin.h \
-  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/BattleCards/BattleCard.h \
+  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/BattleCard.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Card.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/string \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -1390,7 +1390,7 @@ CMakeFiles/MTMCHKIN_HW4.dir/Cards/Well.cpp.obj: C:/Users/allih/OneDrive/Document
 
 CMakeFiles/MTMCHKIN_HW4.dir/Cards/Witch.cpp.obj: C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Witch.cpp \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Witch.h \
-  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/BattleCards/BattleCard.h \
+  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/BattleCard.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Card.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/string \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -1858,12 +1858,12 @@ CMakeFiles/MTMCHKIN_HW4.dir/Mtmchkin.cpp.obj: C:/Users/allih/OneDrive/Documents/
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Players/Healer.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Players/Ninja.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Dragon.h \
-  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/BattleCards/BattleCard.h \
+  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/BattleCard.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Card.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Witch.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Merchant.h \
-  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Treasure.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Card.h \
+  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Treasure.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Well.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Barfight.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Mana.h \
@@ -1873,8 +1873,7 @@ CMakeFiles/MTMCHKIN_HW4.dir/Mtmchkin.cpp.obj: C:/Users/allih/OneDrive/Documents/
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/fstream.tcc \
-  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/utilities.h \
-  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Exception.h
+  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/utilities.h
 
 CMakeFiles/MTMCHKIN_HW4.dir/Players/Healer.cpp.obj: C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Players/Healer.cpp \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Players/Healer.h \
@@ -2667,12 +2666,12 @@ CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.obj: C:/Users/allih/OneDrive/Documents/GitH
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Players/Healer.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Players/Ninja.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Dragon.h \
-  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/BattleCards/BattleCard.h \
+  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/BattleCard.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Card.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Witch.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Merchant.h \
-  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Treasure.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Card.h \
+  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Treasure.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Well.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Barfight.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Mana.h \
@@ -2973,8 +2972,6 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h:
 
-C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/BattleCards/BattleCard.h:
-
 C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/x86_64-w64-mingw32/include/string.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/x86_64-w64-mingw32/include/vadefs.h:
@@ -3163,6 +3160,8 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream:
 
+C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/BattleCard.cpp:
+
 C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/HealthPoints/HealthPoints.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstring:
@@ -3193,7 +3192,7 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_function.h:
 
-C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/BattleCards/BattleCard.cpp:
+C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/BattleCard.h:
 
 C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Card.cpp:
 
@@ -3263,8 +3262,6 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h:
 
-C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Exception.h:
-
 C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Players/Healer.cpp:
 
 C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Players/Player.cpp:
@@ -3272,6 +3269,8 @@ C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Players/Player.cpp:
 C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Players/Warrior.cpp:
 
 C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/main.cpp:
+
+C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Exception.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/algorithm:
 

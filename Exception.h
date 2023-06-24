@@ -9,6 +9,7 @@ class Exception{
 public:
     virtual string what() const = 0;
 };
+
 class DeckFileNotFound : public Exception {
 public:
     string what() const override {
