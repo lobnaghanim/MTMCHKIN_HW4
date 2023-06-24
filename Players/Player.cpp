@@ -1,5 +1,6 @@
 #include "Player.h"
 #include "../utilities.h"
+#include <string>
 
 
 #define INITIAL_FORCE 5
@@ -44,9 +45,6 @@ void Player::buff(int f) {
 }
 
 void Player::heal(int hp) {
-//    if(hp < 0){
-//        return;
-//    }
     if(this->m_HP + hp > MAXHP){
         this->m_HP = MAXHP;
     } else {
