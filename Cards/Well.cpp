@@ -1,4 +1,4 @@
-#include "Cards/Well.h"
+#include "Well.h"
 Well::Well() : Card("Well") {}
 
 void Well::applyEncounter(Player &player) {

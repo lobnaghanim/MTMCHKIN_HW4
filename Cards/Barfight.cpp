@@ -1,4 +1,4 @@
-#include "Cards/Barfight.h"
+#include "Barfight.h"
 Barfight::Barfight() : Card("Barfight") {}
 
 void Barfight::applyEncounter(Player &player) {
