@@ -213,6 +213,10 @@ void Mtmchkin::playRound() {
         printTurnStartMessage(m_players[i]->getName());
 
         m_deck[m_currentCard]->applyEncounter(*m_players[i]);
+        m_currentCard++;
+        if(m_currentCard == (int) m_deck.size()){
+            m_currentCard = 0;
+        }
         if(m_players[i]->getLevel() >= MAXLVL){
             m_winners_indexes.push_back(i);
         } else if(m_players[i]->isKnockedOut()){
@@ -222,10 +226,7 @@ void Mtmchkin::playRound() {
 
 
     // cyclical increment
-    m_currentCard++;
-    if(m_currentCard == (int) m_deck.size()){
-        m_currentCard = 0;
-    }
+
     m_roundsPlayed++;
 
 //    printLeaderBoard();

@@ -124,9 +124,28 @@ bool gremlinCaveTest()
     string expectedOutputFilename("tests/gremlinCave_test_expected.txt");
     return GeneralGameSimulationTest(tmp_file, input, deck, expectedOutputFilename);
 }
+bool witchLairTest()
+{
+    const string tmp_file("witchLair_test");
+    string input("2\nItay Warrior\nPikachu Ninja");
+    string deck("Witch\nWitch\nWitch\nWitch\nWitch");
+    string expectedOutputFilename("tests/witchLair_test_expected.txt");
+    return GeneralGameSimulationTest(tmp_file, input, deck, expectedOutputFilename);
+}
+bool nonMostersTest()
+{
+    const string tmp_file("noMonster_test");
+    string input("2\nItay Healer\nPikachu Ninja");
+    string deck("Mana\nBarfight\nWell\nTreasure\nMana");
+    string expectedOutputFilename("tests/noMonster_test_expected.txt");
+    return GeneralGameSimulationTest(tmp_file, input, deck, expectedOutputFilename);
+}
+
+
 int main() {
     run_test(gremlinCaveTest,"Gremlin Cave simulation test");
     run_test(dragonDenTest,"Dragon Den simulation test");
-
+    run_test(witchLairTest,"Witch Lair simulation test");
+    run_test(nonMostersTest,"Non monsters cards simulation test");
     return 0;
 }

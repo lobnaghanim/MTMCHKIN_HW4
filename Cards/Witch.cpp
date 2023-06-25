@@ -9,7 +9,7 @@ void Witch::applyEncounter(Player &player) {
         printWinBattle(player.getName(), m_name);
     } else {
         player.damage(10);
-        this->m_force -= 1;
+        player.buff(-1);
         printLossBattle(player.getName(), m_name);
     }
 }

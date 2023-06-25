@@ -42,6 +42,9 @@ int Player::getLevel() const {
 
 void Player::buff(int f) {
     this->m_force += f;
+    if(this->m_force < 0){
+        this->m_force = 0;
+    }
 }
 
 void Player::heal(int hp) {
@@ -115,7 +118,7 @@ void Player::wellFall(){
 }
 
 void Player::barFight() {
-    this->damage(8);
+    this->damage(10);
     printBarfightMessage(false);
 }
 
