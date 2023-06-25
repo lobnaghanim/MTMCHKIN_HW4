@@ -141,11 +141,111 @@ bool nonMostersTest()
     return GeneralGameSimulationTest(tmp_file, input, deck, expectedOutputFilename);
 }
 
+bool badFormatStartTest()
+{
+    const string tmp_file("badFormat_test");
+    string input("2\nItay Healer\nPikachu Ninja");
+    string deck("I aint the sharpest tool in the shed\nWitch");
+    string expectedOutputFilename("notneeded.txt");
+    bool flag = false;
+    try {
+        Mtmchkin("inputs/badFormat_test_start_of_file.txt");
+    }
+    catch(const DeckFileFormatError& e){
+        if(strcmp(e.what(),"Deck File Error: File format error in line 1")==0)
+        {
+            flag = true;
+        }
+    }
+    return flag;
+}
+bool badFormatTest()
+{
+    const string tmp_file("badFormat_test");
+    string input("2\nItay Healer\nPikachu Ninja");
+    string deck("SomeBody Once told me the world is gonna roll me\nWitch\n");
+    string expectedOutputFilename("notneeded.txt");
+    bool flag = false;
+    try {
+        Mtmchkin("inputs/badFormat_test.txt");
+    }
+    catch(const DeckFileFormatError& e){
+        if(strcmp(e.what(),"Deck File Error: File format error in line 2")==0) {
+            flag=true;
+        }
+    }
+    return flag;
+}
+bool noFileTest()
+{
+    const string tmp_file("noFile_test");
+    string input("2\nItay Healer\nPikachu Ninja");
+    string expectedOutputFilename("notneeded.txt");
+    string deck("This_is_not_the_file_your_looking_for");
+    bool flag = false;
+    try{
+        Mtmchkin("inputs/noFile.txt");
+    }
+    catch(const DeckFileNotFound& e){
+        flag=true;
+    }
+    return flag;
+}
+
+bool badSizeTest()
+{
+    const string tmp_file("badSize_test");
+    string input("4\nBarbieGirl Healer\nInABarbieWorld Ninja\nMadeOfPlastic Ninja\nITSFANTASTIC Healer");
+    string deck("Mana");
+    string expectedOutputFilename("notneeded.txt");
+    bool flag= false;
+    try{
+        Mtmchkin("inputs/empty.txt");
+    }
+    catch(const DeckFileInvalidSize& e){
+        flag = true;
+    }
+    return flag;
+}
+bool roundLimitTest()
+{
+    const string tmp_file("roundLimit_test");
+    string input("2\nmatamDalf Healer\nrocky Warrior");
+    string deck("Mana\nMana\nMana\nMana\nMana");
+    string expectedOutputFilename("tests/roundLimit_test_expected.txt");
+    return GeneralGameSimulationTest(tmp_file, input, deck, expectedOutputFilename);
+}
+bool allTenTest()
+{
+    const string tmp_file("allTen_test");
+    string input("2\nmatamDalf Healer\nrocky Warrior");
+    string deck("Gremlin\nGremlin\nGremlin\nGremlin\nGremlin");
+    string expectedOutputFilename("tests/allTen_test_expected.txt");
+    return GeneralGameSimulationTest(tmp_file, input, deck, expectedOutputFilename);
+}
+
+bool badPlayerInputTest()
+{
+    const string tmp_file("badPlayerInput_test");
+    string input("2\nmatamDalf Healerd\nmatamDalf ninha\nmatamDalf Healer\nrocky Warrior");
+    string deck("Gremlin\nWitch\nGremlin\nGremlin\nDragon");
+    string expectedOutputFilename("tests/badPlayerInput_test_expected.txt");
+    return GeneralGameSimulationTest(tmp_file, input, deck, expectedOutputFilename);
+}
 
 int main() {
     run_test(gremlinCaveTest,"Gremlin Cave simulation test");
     run_test(dragonDenTest,"Dragon Den simulation test");
     run_test(witchLairTest,"Witch Lair simulation test");
     run_test(nonMostersTest,"Non monsters cards simulation test");
+    run_test(badFormatStartTest,"Bad format at start of file exception test");
+
+        run_test(badFormatTest,"Bad format exception test");
+
+    run_test(noFileTest,"File Doesnt exist exception test");
+    run_test(badSizeTest,"Bad size exception test");
+    run_test(roundLimitTest,"Round upper limit test");
+    run_test(allTenTest,"All reach lvl 10 test");
+    run_test(badPlayerInputTest,"Bad player input test");
     return 0;
 }

@@ -55,9 +55,9 @@ int isValid(const string & input){
     return 1;
 }
 
-int cardTypesAreValid(string * inputArray, int size) {
+int cardTypesAreValid(const vector<string>& inputArray, int size) {
     int i;
-    for( i = 0; i < size; i++) {
+    for(i = 0; i < size; i++) {
         if(!(inputArray[i] == "Dragon" || inputArray[i] == "Well" || inputArray[i] == "Barfight" || inputArray[i] == "Gremlin"
         || inputArray[i] == "Witch"  || inputArray[i] == "Merchant" || inputArray[i] == "Treasure" || inputArray[i] == "Mana")) {
             return i; //the deck of cards starts with line 1 not 0 in the file deck.txt
@@ -67,7 +67,6 @@ int cardTypesAreValid(string * inputArray, int size) {
 }
 
 void Mtmchkin::buildPlayer(const std::string &name, const std::string &type) {
-//    cout << "Building player " << name << " of type " << type << endl;
     if(type == "Ninja"){
         unique_ptr<Ninja> ninja(new Ninja(name));
         m_players.push_back(std::move(ninja));
@@ -89,10 +88,31 @@ Mtmchkin::Mtmchkin(const std::string &fileName) {
     if(!file) {
         throw DeckFileNotFound();
     }
+    // card array
+    vector<string> inputArray;
+    int size = 0;
+    std::string line;
+    while (std::getline(file, line)) {
+        if (!line.empty()) {
+            // create a new card and add it to the deck
+            inputArray.push_back(line);
+            size++;
+        }
+    }
+    int lineNumber = cardTypesAreValid(inputArray, size);
+    if(lineNumber<size) {
+        throw DeckFileFormatError(lineNumber + 1);
+    }
+    if(size<5) throw DeckFileInvalidSize();
+
+
     printEnterTeamSizeMessage();
     int teamSize = 0;
     std::cin >> teamSize;
+    // check if team size is a number not a word, @TODO: check if valid
     while(teamSize <= 1 || teamSize >= 7) {
+        std::cin.clear();
+        std::cin.ignore(BUFSIZ,'\n');
         printInvalidTeamSize();
         std::cin >> teamSize;
     }
@@ -128,22 +148,22 @@ Mtmchkin::Mtmchkin(const std::string &fileName) {
         buildPlayer(tempName, tempType);
     }
 
-    // card array
-    vector<string> inputArray;
-    int size = 0;
-    std::string line;
-    while (std::getline(file, line)) {
-        if (!line.empty()) {
-            // create a new card and add it to the deck
-            inputArray.push_back(line);
-            size++;
-        }
-    }
-    if(size<5) throw DeckFileInvalidSize();
-    int lineNumber = cardTypesAreValid(inputArray.data(), size);
-    if(lineNumber<size) {
-        throw DeckFileFormatError(lineNumber + 1);
-    }
+//    // card array
+//    vector<string> inputArray;
+//    int size = 0;
+//    std::string line;
+//    while (std::getline(file, line)) {
+//        if (!line.empty()) {
+//            // create a new card and add it to the deck
+//            inputArray.push_back(line);
+//            size++;
+//        }
+//    }
+//    int lineNumber = cardTypesAreValid(inputArray, size);
+//    if(lineNumber<size) {
+//        throw DeckFileFormatError(lineNumber + 1);
+//    }
+//    if(size<5) throw DeckFileInvalidSize();
 
     // construct the deck
     buildDeck(inputArray);
