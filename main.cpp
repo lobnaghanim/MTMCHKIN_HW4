@@ -126,7 +126,7 @@ bool gremlinCaveTest()
 }
 int main() {
     run_test(gremlinCaveTest,"Gremlin Cave simulation test");
-//        run_test(dragonDenTest,"Dragon Den ali test");
+    run_test(dragonDenTest,"Dragon Den simulation test");
 
     return 0;
 }
