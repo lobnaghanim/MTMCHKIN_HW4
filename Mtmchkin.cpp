@@ -60,10 +60,10 @@ int cardTypesAreValid(string * inputArray, int size) {
     for( i = 0; i < size; i++) {
         if(!(inputArray[i] == "Dragon" || inputArray[i] == "Well" || inputArray[i] == "Barfight" || inputArray[i] == "Gremlin"
         || inputArray[i] == "Witch"  || inputArray[i] == "Merchant" || inputArray[i] == "Treasure" || inputArray[i] == "Mana")) {
-            return i+1;
+            return i; //the deck of cards starts with line 1 not 0 in the file deck.txt
         }
     }
-    return i; //the deck of cards starts with line 1 not 0 in the file deck.txt
+    return i;
 }
 
 void Mtmchkin::buildPlayer(const std::string &name, const std::string &type) {
@@ -144,7 +144,7 @@ Mtmchkin::Mtmchkin(const std::string &fileName) {
     //cout<<size<<"THIS IS THE SIZE OF THE CARD ARRAY"<<endl;
     int lineNumber = cardTypesAreValid(inputArray.data(), size);
     if(lineNumber<size) {
-        throw DeckFileFormatError(lineNumber);
+        throw DeckFileFormatError(lineNumber + 1);
         //throw std::runtime_error("Invalid input concerning the cards");
     }
 

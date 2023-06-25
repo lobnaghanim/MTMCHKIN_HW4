@@ -162,7 +162,7 @@ int main(){
     try{
         Mtmchkin game("deck.txt");
     }
-    catch (const DeckFileNotFound& e)
+    catch (const Exception& e)
     {
         cout<<e.what()<<endl;
     }
