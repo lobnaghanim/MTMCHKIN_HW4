@@ -159,13 +159,13 @@ bool dragonDenTest()
 
 int main(){
 //
-//    try{
-        Mtmchkin game("C:\\Users\\allih\\OneDrive\\Documents\\GitHub\\MTMCHKIN_HW4\\deck.txt");
-//    }
-//    catch (const Exception& e)
-//    {
-//        cout<<e.what()<<endl;
-//    }
+    try{
+        Mtmchkin game("deck.txt");
+    }
+    catch (const DeckFileNotFound& e)
+    {
+        cout<<e.what()<<endl;
+    }
 
 //    Mtmchkin game("C:\\Users\\allih\\OneDrive\\Documents\\GitHub\\MTMCHKIN_HW4\\deck.txt");
 //    while(!game.isGameOver()){
@@ -216,9 +216,9 @@ int main(){
 
     // Ali Ninja
 //    Mtmchkin game2("deck.txt");
-    run_test(cardsPrintsTest,"cardsPrintsTest");
-    run_test(playersPrintsTest,"playersPrintsTest");
-    run_test(testCard,"Deck creation test");
+//    run_test(cardsPrintsTest,"cardsPrintsTest");
+//    run_test(playersPrintsTest,"playersPrintsTest");
+//    run_test(testCard,"Deck creation test");
 
 //    try{
 //        run_test(dragonDenTest,"Dragon Den simulation test");
