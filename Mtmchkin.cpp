@@ -140,11 +140,9 @@ Mtmchkin::Mtmchkin(const std::string &fileName) {
         }
     }
     if(size<5) throw DeckFileInvalidSize();
-    //cout<<size<<"THIS IS THE SIZE OF THE CARD ARRAY"<<endl;
     int lineNumber = cardTypesAreValid(inputArray.data(), size);
     if(lineNumber<size) {
         throw DeckFileFormatError(lineNumber + 1);
-        //throw std::runtime_error("Invalid input concerning the cards");
     }
 
     // construct the deck
@@ -230,7 +228,7 @@ void Mtmchkin::playRound() {
     }
     m_roundsPlayed++;
 
-    printLeaderBoard();
+//    printLeaderBoard();
     if(isGameOver()){
         printGameEndMessage();
         return;
