@@ -1,7 +1,15 @@
 #include "Mtmchkin.h"
 #define SPACE ' '
 
-
+//int count(const string & str, char c){
+//    int count = 0;
+//    for(char ch : str){
+//        if(ch == c){
+//            count++;
+//        }
+//    }
+//    return count;
+//}
 
 int isValid(const string & input){
     // use ust::stringstream to split the string into words
