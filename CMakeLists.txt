@@ -1,4 +1,5 @@
-cmake_minimum_required(VERSION 3.23)
+#cmake_minimum_required(VERSION 3.23)
+cmake_minimum_required(VERSION 3.17)
 project(MTMCHKIN_HW4)
 
 set(CMAKE_CXX_STANDARD 14)
@@ -44,7 +45,7 @@ add_executable(MTMCHKIN_HW4
         main.cpp
 #        test.cpp
 
-        main.cpp Exception.h)
+        Exception.h)
 
 #add_executable(MTMCHKIN_HW4
 #        Mtmchkin.h

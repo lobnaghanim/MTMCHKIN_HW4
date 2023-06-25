@@ -85,12 +85,11 @@ Mtmchkin::Mtmchkin(const std::string &fileName) {
     // read the cards from the file
     std::ifstream file(fileName);
 
-
     printStartGameMessage();
-    printEnterTeamSizeMessage();
-    if(!file.good() || !file.is_open()) {
+    if(!file) {
         throw DeckFileNotFound();
     }
+    printEnterTeamSizeMessage();
     int teamSize = 0;
     std::cin >> teamSize;
     while(teamSize <= 1 || teamSize >= 7) {

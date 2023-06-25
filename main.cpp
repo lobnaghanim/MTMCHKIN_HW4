@@ -160,7 +160,7 @@ bool dragonDenTest()
 int main(){
 //
     try{
-        Mtmchkin game("deck.txt");
+        Mtmchkin game("dec1k.txt");
     }
     catch (const Exception& e)
     {
