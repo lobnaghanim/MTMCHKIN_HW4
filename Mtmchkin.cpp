@@ -122,6 +122,7 @@ Mtmchkin::Mtmchkin(const std::string &fileName) {
     // check if team size is a number not a word
     while(!isNumber(teamSize) || stoi(teamSize) <= 1 || stoi(teamSize) >= 7) {
         printInvalidTeamSize();
+        printEnterTeamSizeMessage();
         std::cin >> teamSize;
     }
 
