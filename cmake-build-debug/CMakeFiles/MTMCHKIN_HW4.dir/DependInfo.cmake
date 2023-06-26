@@ -18,7 +18,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Treasure.cpp" "CMakeFiles/MTMCHKIN_HW4.dir/Cards/Treasure.cpp.obj" "gcc" "CMakeFiles/MTMCHKIN_HW4.dir/Cards/Treasure.cpp.obj.d"
   "C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Well.cpp" "CMakeFiles/MTMCHKIN_HW4.dir/Cards/Well.cpp.obj" "gcc" "CMakeFiles/MTMCHKIN_HW4.dir/Cards/Well.cpp.obj.d"
   "C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Witch.cpp" "CMakeFiles/MTMCHKIN_HW4.dir/Cards/Witch.cpp.obj" "gcc" "CMakeFiles/MTMCHKIN_HW4.dir/Cards/Witch.cpp.obj.d"
-  "C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/HealthPoints/HealthPoints.cpp" "CMakeFiles/MTMCHKIN_HW4.dir/HealthPoints/HealthPoints.cpp.obj" "gcc" "CMakeFiles/MTMCHKIN_HW4.dir/HealthPoints/HealthPoints.cpp.obj.d"
+  "C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/HealthPoints.cpp" "CMakeFiles/MTMCHKIN_HW4.dir/HealthPoints.cpp.obj" "gcc" "CMakeFiles/MTMCHKIN_HW4.dir/HealthPoints.cpp.obj.d"
   "C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Mtmchkin.cpp" "CMakeFiles/MTMCHKIN_HW4.dir/Mtmchkin.cpp.obj" "gcc" "CMakeFiles/MTMCHKIN_HW4.dir/Mtmchkin.cpp.obj.d"
   "C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Players/Healer.cpp" "CMakeFiles/MTMCHKIN_HW4.dir/Players/Healer.cpp.obj" "gcc" "CMakeFiles/MTMCHKIN_HW4.dir/Players/Healer.cpp.obj.d"
   "C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Players/Ninja.cpp" "CMakeFiles/MTMCHKIN_HW4.dir/Players/Ninja.cpp.obj" "gcc" "CMakeFiles/MTMCHKIN_HW4.dir/Players/Ninja.cpp.obj.d"

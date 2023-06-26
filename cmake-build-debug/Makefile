@@ -368,29 +368,29 @@ Cards/Witch.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MTMCHKIN_HW4.dir\build.make CMakeFiles/MTMCHKIN_HW4.dir/Cards/Witch.cpp.s
 .PHONY : Cards/Witch.cpp.s
 
-HealthPoints/HealthPoints.obj: HealthPoints/HealthPoints.cpp.obj
-.PHONY : HealthPoints/HealthPoints.obj
+HealthPoints.obj: HealthPoints.cpp.obj
+.PHONY : HealthPoints.obj
 
 # target to build an object file
-HealthPoints/HealthPoints.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MTMCHKIN_HW4.dir\build.make CMakeFiles/MTMCHKIN_HW4.dir/HealthPoints/HealthPoints.cpp.obj
-.PHONY : HealthPoints/HealthPoints.cpp.obj
+HealthPoints.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MTMCHKIN_HW4.dir\build.make CMakeFiles/MTMCHKIN_HW4.dir/HealthPoints.cpp.obj
+.PHONY : HealthPoints.cpp.obj
 
-HealthPoints/HealthPoints.i: HealthPoints/HealthPoints.cpp.i
-.PHONY : HealthPoints/HealthPoints.i
+HealthPoints.i: HealthPoints.cpp.i
+.PHONY : HealthPoints.i
 
 # target to preprocess a source file
-HealthPoints/HealthPoints.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MTMCHKIN_HW4.dir\build.make CMakeFiles/MTMCHKIN_HW4.dir/HealthPoints/HealthPoints.cpp.i
-.PHONY : HealthPoints/HealthPoints.cpp.i
+HealthPoints.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MTMCHKIN_HW4.dir\build.make CMakeFiles/MTMCHKIN_HW4.dir/HealthPoints.cpp.i
+.PHONY : HealthPoints.cpp.i
 
-HealthPoints/HealthPoints.s: HealthPoints/HealthPoints.cpp.s
-.PHONY : HealthPoints/HealthPoints.s
+HealthPoints.s: HealthPoints.cpp.s
+.PHONY : HealthPoints.s
 
 # target to generate assembly for a file
-HealthPoints/HealthPoints.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MTMCHKIN_HW4.dir\build.make CMakeFiles/MTMCHKIN_HW4.dir/HealthPoints/HealthPoints.cpp.s
-.PHONY : HealthPoints/HealthPoints.cpp.s
+HealthPoints.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MTMCHKIN_HW4.dir\build.make CMakeFiles/MTMCHKIN_HW4.dir/HealthPoints.cpp.s
+.PHONY : HealthPoints.cpp.s
 
 Mtmchkin.obj: Mtmchkin.cpp.obj
 .PHONY : Mtmchkin.obj
@@ -599,9 +599,9 @@ help:
 	@echo ... Cards/Witch.obj
 	@echo ... Cards/Witch.i
 	@echo ... Cards/Witch.s
-	@echo ... HealthPoints/HealthPoints.obj
-	@echo ... HealthPoints/HealthPoints.i
-	@echo ... HealthPoints/HealthPoints.s
+	@echo ... HealthPoints.obj
+	@echo ... HealthPoints.i
+	@echo ... HealthPoints.s
 	@echo ... Mtmchkin.obj
 	@echo ... Mtmchkin.i
 	@echo ... Mtmchkin.s

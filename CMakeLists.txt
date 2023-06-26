@@ -11,8 +11,8 @@ add_executable(MTMCHKIN_HW4
         utilities.h
         Players/Player.cpp
         Players/Player.h
-        HealthPoints/HealthPoints.cpp
-        HealthPoints/HealthPoints.h
+        HealthPoints.cpp
+        HealthPoints.h
         Players/Ninja.cpp
         Players/Ninja.h
         Players/Healer.h

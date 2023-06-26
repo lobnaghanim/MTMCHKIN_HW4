@@ -2,7 +2,7 @@
 #define PLAYER_H
 
 #include <iostream>
-#include "../HealthPoints/HealthPoints.h"
+#include "../HealthPoints.h"
 
 #include <string>
 using namespace std;

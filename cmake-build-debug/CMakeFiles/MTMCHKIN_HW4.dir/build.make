@@ -98,20 +98,20 @@ CMakeFiles/MTMCHKIN_HW4.dir/Players/Player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MTMCHKIN_HW4.dir/Players/Player.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Players\Player.cpp -o CMakeFiles\MTMCHKIN_HW4.dir\Players\Player.cpp.s
 
-CMakeFiles/MTMCHKIN_HW4.dir/HealthPoints/HealthPoints.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/flags.make
-CMakeFiles/MTMCHKIN_HW4.dir/HealthPoints/HealthPoints.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/includes_CXX.rsp
-CMakeFiles/MTMCHKIN_HW4.dir/HealthPoints/HealthPoints.cpp.obj: C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/HealthPoints/HealthPoints.cpp
-CMakeFiles/MTMCHKIN_HW4.dir/HealthPoints/HealthPoints.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MTMCHKIN_HW4.dir/HealthPoints/HealthPoints.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MTMCHKIN_HW4.dir/HealthPoints/HealthPoints.cpp.obj -MF CMakeFiles\MTMCHKIN_HW4.dir\HealthPoints\HealthPoints.cpp.obj.d -o CMakeFiles\MTMCHKIN_HW4.dir\HealthPoints\HealthPoints.cpp.obj -c C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\HealthPoints\HealthPoints.cpp
+CMakeFiles/MTMCHKIN_HW4.dir/HealthPoints.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/flags.make
+CMakeFiles/MTMCHKIN_HW4.dir/HealthPoints.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/includes_CXX.rsp
+CMakeFiles/MTMCHKIN_HW4.dir/HealthPoints.cpp.obj: C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/HealthPoints.cpp
+CMakeFiles/MTMCHKIN_HW4.dir/HealthPoints.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MTMCHKIN_HW4.dir/HealthPoints.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MTMCHKIN_HW4.dir/HealthPoints.cpp.obj -MF CMakeFiles\MTMCHKIN_HW4.dir\HealthPoints.cpp.obj.d -o CMakeFiles\MTMCHKIN_HW4.dir\HealthPoints.cpp.obj -c C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\HealthPoints.cpp
 
-CMakeFiles/MTMCHKIN_HW4.dir/HealthPoints/HealthPoints.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MTMCHKIN_HW4.dir/HealthPoints/HealthPoints.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\HealthPoints\HealthPoints.cpp > CMakeFiles\MTMCHKIN_HW4.dir\HealthPoints\HealthPoints.cpp.i
+CMakeFiles/MTMCHKIN_HW4.dir/HealthPoints.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MTMCHKIN_HW4.dir/HealthPoints.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\HealthPoints.cpp > CMakeFiles\MTMCHKIN_HW4.dir\HealthPoints.cpp.i
 
-CMakeFiles/MTMCHKIN_HW4.dir/HealthPoints/HealthPoints.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MTMCHKIN_HW4.dir/HealthPoints/HealthPoints.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\HealthPoints\HealthPoints.cpp -o CMakeFiles\MTMCHKIN_HW4.dir\HealthPoints\HealthPoints.cpp.s
+CMakeFiles/MTMCHKIN_HW4.dir/HealthPoints.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MTMCHKIN_HW4.dir/HealthPoints.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\HealthPoints.cpp -o CMakeFiles\MTMCHKIN_HW4.dir\HealthPoints.cpp.s
 
 CMakeFiles/MTMCHKIN_HW4.dir/Players/Ninja.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/flags.make
 CMakeFiles/MTMCHKIN_HW4.dir/Players/Ninja.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/includes_CXX.rsp
@@ -342,7 +342,7 @@ CMakeFiles/MTMCHKIN_HW4.dir/test.cpp.s: cmake_force
 MTMCHKIN_HW4_OBJECTS = \
 "CMakeFiles/MTMCHKIN_HW4.dir/utilities.cpp.obj" \
 "CMakeFiles/MTMCHKIN_HW4.dir/Players/Player.cpp.obj" \
-"CMakeFiles/MTMCHKIN_HW4.dir/HealthPoints/HealthPoints.cpp.obj" \
+"CMakeFiles/MTMCHKIN_HW4.dir/HealthPoints.cpp.obj" \
 "CMakeFiles/MTMCHKIN_HW4.dir/Players/Ninja.cpp.obj" \
 "CMakeFiles/MTMCHKIN_HW4.dir/Players/Healer.cpp.obj" \
 "CMakeFiles/MTMCHKIN_HW4.dir/Players/Warrior.cpp.obj" \
@@ -364,7 +364,7 @@ MTMCHKIN_HW4_EXTERNAL_OBJECTS =
 
 MTMCHKIN_HW4.exe: CMakeFiles/MTMCHKIN_HW4.dir/utilities.cpp.obj
 MTMCHKIN_HW4.exe: CMakeFiles/MTMCHKIN_HW4.dir/Players/Player.cpp.obj
-MTMCHKIN_HW4.exe: CMakeFiles/MTMCHKIN_HW4.dir/HealthPoints/HealthPoints.cpp.obj
+MTMCHKIN_HW4.exe: CMakeFiles/MTMCHKIN_HW4.dir/HealthPoints.cpp.obj
 MTMCHKIN_HW4.exe: CMakeFiles/MTMCHKIN_HW4.dir/Players/Ninja.cpp.obj
 MTMCHKIN_HW4.exe: CMakeFiles/MTMCHKIN_HW4.dir/Players/Healer.cpp.obj
 MTMCHKIN_HW4.exe: CMakeFiles/MTMCHKIN_HW4.dir/Players/Warrior.cpp.obj
