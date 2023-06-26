@@ -512,29 +512,29 @@ Players/Warrior.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MTMCHKIN_HW4.dir\build.make CMakeFiles/MTMCHKIN_HW4.dir/Players/Warrior.cpp.s
 .PHONY : Players/Warrior.cpp.s
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+test.obj: test.cpp.obj
+.PHONY : test.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MTMCHKIN_HW4.dir\build.make CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MTMCHKIN_HW4.dir\build.make CMakeFiles/MTMCHKIN_HW4.dir/test.cpp.obj
+.PHONY : test.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+test.i: test.cpp.i
+.PHONY : test.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MTMCHKIN_HW4.dir\build.make CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.i
-.PHONY : main.cpp.i
+test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MTMCHKIN_HW4.dir\build.make CMakeFiles/MTMCHKIN_HW4.dir/test.cpp.i
+.PHONY : test.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+test.s: test.cpp.s
+.PHONY : test.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MTMCHKIN_HW4.dir\build.make CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.s
-.PHONY : main.cpp.s
+test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MTMCHKIN_HW4.dir\build.make CMakeFiles/MTMCHKIN_HW4.dir/test.cpp.s
+.PHONY : test.cpp.s
 
 utilities.obj: utilities.cpp.obj
 .PHONY : utilities.obj
@@ -617,9 +617,9 @@ help:
 	@echo ... Players/Warrior.obj
 	@echo ... Players/Warrior.i
 	@echo ... Players/Warrior.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... test.obj
+	@echo ... test.i
+	@echo ... test.s
 	@echo ... utilities.obj
 	@echo ... utilities.i
 	@echo ... utilities.s

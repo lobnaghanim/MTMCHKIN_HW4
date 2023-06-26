@@ -1867,11 +1867,6 @@ CMakeFiles/MTMCHKIN_HW4.dir/Mtmchkin.cpp.obj: C:/Users/allih/OneDrive/Documents/
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Barfight.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Mana.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Gremlin.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/fstream \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/codecvt.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/fstream.tcc \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Exception.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/utilities.h
 
@@ -2486,7 +2481,7 @@ CMakeFiles/MTMCHKIN_HW4.dir/Players/Warrior.cpp.obj: C:/Users/allih/OneDrive/Doc
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_function.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Players/Player.h
 
-CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.obj: C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/main.cpp \
+CMakeFiles/MTMCHKIN_HW4.dir/test.cpp.obj: C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/test.cpp \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/functional \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
@@ -2675,11 +2670,6 @@ CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.obj: C:/Users/allih/OneDrive/Documents/GitH
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Barfight.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Mana.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Gremlin.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/fstream \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/codecvt.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/fstream.tcc \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Exception.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/utilities.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/algorithm \
@@ -2695,7 +2685,12 @@ CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.obj: C:/Users/allih/OneDrive/Documents/GitH
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/opt_random.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/random.tcc \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/numeric \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_numeric.h
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_numeric.h \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/fstream \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/codecvt.h \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/fstream.tcc
 
 CMakeFiles/MTMCHKIN_HW4.dir/utilities.cpp.obj: C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/utilities.cpp \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/utilities.h \
@@ -3255,12 +3250,6 @@ C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Players/Healer.h:
 
 C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Players/Ninja.h:
 
-C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/codecvt.h:
-
-C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_algo.h:
-
-C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h:
-
 C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Exception.h:
 
 C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Players/Healer.cpp:
@@ -3269,9 +3258,13 @@ C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Players/Player.cpp:
 
 C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Players/Warrior.cpp:
 
-C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/main.cpp:
+C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/test.cpp:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/algorithm:
+
+C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h:
+
+C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_algo.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_heap.h:
 
@@ -3288,5 +3281,7 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32
 C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/numeric:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_numeric.h:
+
+C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/codecvt.h:
 
 C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/utilities.cpp:

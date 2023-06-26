@@ -42,8 +42,8 @@ add_executable(MTMCHKIN_HW4
         Mtmchkin.h
         Mtmchkin.cpp
 
-        main.cpp
-#        test.cpp
+#        main.cpp
+        test.cpp
 
         Exception.h)
 

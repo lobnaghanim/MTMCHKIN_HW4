@@ -159,6 +159,62 @@ bool badFormatStartTest()
     }
     return flag;
 }
+bool noFileTest()
+{
+    const string tmp_file("noFile_test");
+    string input("2\nItay Healer\nPikachu Ninja");
+    string expectedOutputFilename("notneeded.txt");
+    string deck("This_is_not_the_file_your_looking_for");
+    bool flag = false;
+    try{
+        Mtmchkin("inputs/noFile.txt");
+    }
+    catch(const DeckFileNotFound& e){
+        flag=true;
+    }
+    return flag;
+}
+bool badSizeTest()
+{
+    const string tmp_file("badSize_test");
+    string input("4\nBarbieGirl Healer\nInABarbieWorld Ninja\nMadeOfPlastic Ninja\nITSFANTASTIC Healer");
+    string deck("Mana");
+    string expectedOutputFilename("notneeded.txt");
+    bool flag= false;
+    try{
+        Mtmchkin("inputs/empty.txt");
+    }
+    catch(const DeckFileInvalidSize& e){
+        flag = true;
+    }
+    return flag;
+}
+
+bool roundLimitTest()
+{
+    const string tmp_file("roundLimit_test");
+    string input("2\nmatamDalf Healer\nrocky Warrior");
+    string deck("Mana\nMana\nMana\nMana\nMana");
+    string expectedOutputFilename("tests/roundLimit_test_expected.txt");
+    return GeneralGameSimulationTest(tmp_file, input, deck, expectedOutputFilename);
+}
+bool allTenTest()
+{
+    const string tmp_file("allTen_test");
+    string input("2\nmatamDalf Healer\nrocky Warrior");
+    string deck("Gremlin\nGremlin\nGremlin\nGremlin\nGremlin");
+    string expectedOutputFilename("tests/allTen_test_expected.txt");
+    return GeneralGameSimulationTest(tmp_file, input, deck, expectedOutputFilename);
+}
+bool badPlayerInputTest()
+{
+    const string tmp_file("badPlayerInput_test");
+    string input("2\nmatamDalf Healerd\nmatamDalf ninha\nmatamDalf Healer\nrocky Warrior");
+    string deck("Gremlin\nWitch\nGremlin\nGremlin\nDragon");
+    string expectedOutputFilename("tests/badPlayerInput_test_expected.txt");
+    return GeneralGameSimulationTest(tmp_file, input, deck, expectedOutputFilename);
+}
+
 bool badFormatTest()
 {
     const string tmp_file("badFormat_test");
@@ -176,62 +232,6 @@ bool badFormatTest()
     }
     return flag;
 }
-bool noFileTest()
-{
-    const string tmp_file("noFile_test");
-    string input("2\nItay Healer\nPikachu Ninja");
-    string expectedOutputFilename("notneeded.txt");
-    string deck("This_is_not_the_file_your_looking_for");
-    bool flag = false;
-    try{
-        Mtmchkin("inputs/noFile.txt");
-    }
-    catch(const DeckFileNotFound& e){
-        flag=true;
-    }
-    return flag;
-}
-
-bool badSizeTest()
-{
-    const string tmp_file("badSize_test");
-    string input("4\nBarbieGirl Healer\nInABarbieWorld Ninja\nMadeOfPlastic Ninja\nITSFANTASTIC Healer");
-    string deck("Mana");
-    string expectedOutputFilename("notneeded.txt");
-    bool flag= false;
-    try{
-        Mtmchkin("inputs/empty.txt");
-    }
-    catch(const DeckFileInvalidSize& e){
-        flag = true;
-    }
-    return flag;
-}
-bool roundLimitTest()
-{
-    const string tmp_file("roundLimit_test");
-    string input("2\nmatamDalf Healer\nrocky Warrior");
-    string deck("Mana\nMana\nMana\nMana\nMana");
-    string expectedOutputFilename("tests/roundLimit_test_expected.txt");
-    return GeneralGameSimulationTest(tmp_file, input, deck, expectedOutputFilename);
-}
-bool allTenTest()
-{
-    const string tmp_file("allTen_test");
-    string input("2\nmatamDalf Healer\nrocky Warrior");
-    string deck("Gremlin\nGremlin\nGremlin\nGremlin\nGremlin");
-    string expectedOutputFilename("tests/allTen_test_expected.txt");
-    return GeneralGameSimulationTest(tmp_file, input, deck, expectedOutputFilename);
-}
-
-bool badPlayerInputTest()
-{
-    const string tmp_file("badPlayerInput_test");
-    string input("2\nmatamDalf Healerd\nmatamDalf ninha\nmatamDalf Healer\nrocky Warrior");
-    string deck("Gremlin\nWitch\nGremlin\nGremlin\nDragon");
-    string expectedOutputFilename("tests/badPlayerInput_test_expected.txt");
-    return GeneralGameSimulationTest(tmp_file, input, deck, expectedOutputFilename);
-}
 
 int main() {
 //    run_test(gremlinCaveTest,"Gremlin Cave simulation test");
@@ -240,18 +240,35 @@ int main() {
 //    run_test(nonMostersTest,"Non monsters cards simulation test");
 //    run_test(badFormatStartTest,"Bad format at start of file exception test");
 //
-//        run_test(badFormatTest,"Bad format exception test");
+        run_test(badFormatTest,"Bad format exception test");
 //
 //    run_test(noFileTest,"File Doesnt exist exception test");
 //    run_test(badSizeTest,"Bad size exception test");
 //    run_test(roundLimitTest,"Round upper limit test");
 //    run_test(allTenTest,"All reach lvl 10 test");
 //    run_test(badPlayerInputTest,"Bad player input test");
-    Mtmchkin game("deck.txt");
-    while(!game.isGameOver() && game.getNumberOfRounds() != 100)
-    {
-        game.playRound();
-        game.printLeaderBoard();
+//try{
+//    Mtmchkin game("deck.txt");
+//    while(!game.isGameOver() && game.getNumberOfRounds() != 100)
+//    {
+//        game.playRound();
+//        game.printLeaderBoard();
+//    }
+//
+//}catch (const Exception& e){
+//    cout << e.what() << endl;
+//}
+
+    std::ifstream file("stam.txt");
+    std::string line;
+    while (std::getline(file, line)) {
+        if (!line.empty()) {
+            // create a new card and add it to the deck
+            bool b = (line == "Witch");
+            cout << b << endl;
+            cout << line << endl;
+        }
     }
+
     return 0;
 }
