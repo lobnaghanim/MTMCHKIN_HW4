@@ -248,9 +248,10 @@ int main() {
 //    run_test(allTenTest,"All reach lvl 10 test");
 //    run_test(badPlayerInputTest,"Bad player input test");
     Mtmchkin game("deck.txt");
-    while(!game.isGameOver())
+    while(!game.isGameOver() && game.getNumberOfRounds() != 100)
     {
         game.playRound();
+        game.printLeaderBoard();
     }
     return 0;
 }
