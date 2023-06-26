@@ -97,6 +97,7 @@ Mtmchkin::Mtmchkin(const std::string &fileName) {
     if(!file) {
         throw DeckFileNotFound();
     }
+    // -----------------------------
     // card array
     vector<string> inputArray;
     int size = 0;
@@ -113,7 +114,7 @@ Mtmchkin::Mtmchkin(const std::string &fileName) {
         throw DeckFileFormatError(lineNumber + 1);
     }
     if(size<5) throw DeckFileInvalidSize();
-
+    // -----------------------------
 
     printEnterTeamSizeMessage();
     string teamSize;
@@ -155,23 +156,6 @@ Mtmchkin::Mtmchkin(const std::string &fileName) {
 
         buildPlayer(tempName, tempType);
     }
-
-//    // card array
-//    vector<string> inputArray;
-//    int size = 0;
-//    std::string line;
-//    while (std::getline(file, line)) {
-//        if (!line.empty()) {
-//            // create a new card and add it to the deck
-//            inputArray.push_back(line);
-//            size++;
-//        }
-//    }
-//    int lineNumber = cardTypesAreValid(inputArray, size);
-//    if(lineNumber<size) {
-//        throw DeckFileFormatError(lineNumber + 1);
-//    }
-//    if(size<5) throw DeckFileInvalidSize();
 
     // construct the deck
     buildDeck(inputArray);
