@@ -118,16 +118,16 @@ Mtmchkin::Mtmchkin(const std::string &fileName) {
 
     printEnterTeamSizeMessage();
     string teamSize;
-    std::cin >> teamSize;
+    std::getline(std::cin, teamSize);
     // check if team size is a number not a word
-    while(!isNumber(teamSize) || stoi(teamSize) <= 1 || stoi(teamSize) >= 7) {
+    while(!isNumber(teamSize) || stoi(teamSize) <= 1 || stoi(teamSize) >= 7){
         printInvalidTeamSize();
         printEnterTeamSizeMessage();
-        std::cin >> teamSize;
+        std::getline(std::cin, teamSize);
     }
 
     int teamSizeAsInt = stoi(teamSize);
-    std::cin.ignore(); // ignores \n at the end of the line
+//    std::cin.ignore(); // ignores \n at the end of the line
     for(int i = 0; i < teamSizeAsInt; i++) { // builds the players
         string name;
         printInsertPlayerMessage();
