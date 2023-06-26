@@ -79,6 +79,15 @@ void Mtmchkin::buildPlayer(const std::string &name, const std::string &type) {
     }
 }
 
+bool isNumber(const std::string& str) {
+    try {
+        std::stoi(str);
+        return true;
+    } catch (const std::exception& e) {
+        return false;
+    }
+}
+
 
 Mtmchkin::Mtmchkin(const std::string &fileName) {
     // read the cards from the file
@@ -107,18 +116,17 @@ Mtmchkin::Mtmchkin(const std::string &fileName) {
 
 
     printEnterTeamSizeMessage();
-    int teamSize = 0;
+    string teamSize;
     std::cin >> teamSize;
-    // check if team size is a number not a word, @TODO: check if valid
-    while(teamSize <= 1 || teamSize >= 7) {
-        std::cin.clear();
-        std::cin.ignore(BUFSIZ,'\n');
+    // check if team size is a number not a word
+    while(!isNumber(teamSize) || stoi(teamSize) <= 1 || stoi(teamSize) >= 7) {
         printInvalidTeamSize();
         std::cin >> teamSize;
     }
 
+    int teamSizeAsInt = stoi(teamSize);
     std::cin.ignore(); // ignores \n at the end of the line
-    for(int i = 0; i < teamSize; i++) { // builds the players
+    for(int i = 0; i < teamSizeAsInt; i++) { // builds the players
         string name;
         printInsertPlayerMessage();
 
