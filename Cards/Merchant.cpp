@@ -13,23 +13,18 @@ bool isANumber(const std::string& str) {
 void Merchant::applyEncounter(Player &player) {
 //    printf("MerchantCard::applyEncounter\n");
     printMerchantInitialMessageForInteractiveEncounter(std::cout, player.getName(), player.getCoins());
+    
     string input;
-    std::cin >> input;
-    // check if team size is a number not a word
-    while(!isANumber(input) || stoi(input) < 0 || stoi(input) > 2) {
+    std::getline(std::cin, input);
+    
+    while(!isANumber(input) || stoi(input) < 0 || stoi(input) > 2){
         printInvalidInput();
-        std::cin >> input;
+        std::getline(std::cin, input);
     }
+    
     int choice = stoi(input);
     int cost = 0;
-//    int choice = -1;
-//    int cost = 0;
-//    // ask player to choose a number between 0 and 2
-//    std::cin >> choice;
-//    while (choice < 0 || choice > 2) {
-//        printInvalidInput();
-//        std::cin >> choice;
-//    }
+
 
 
     switch (choice) {

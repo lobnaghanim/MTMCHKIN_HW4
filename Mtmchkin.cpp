@@ -127,7 +127,6 @@ Mtmchkin::Mtmchkin(const std::string &fileName) {
     }
 
     int teamSizeAsInt = stoi(teamSize);
-//    std::cin.ignore(); // ignores \n at the end of the line
     for(int i = 0; i < teamSizeAsInt; i++) { // builds the players
         string name;
         printInsertPlayerMessage();
