@@ -24,7 +24,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Players/Ninja.cpp" "CMakeFiles/MTMCHKIN_HW4.dir/Players/Ninja.cpp.obj" "gcc" "CMakeFiles/MTMCHKIN_HW4.dir/Players/Ninja.cpp.obj.d"
   "C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Players/Player.cpp" "CMakeFiles/MTMCHKIN_HW4.dir/Players/Player.cpp.obj" "gcc" "CMakeFiles/MTMCHKIN_HW4.dir/Players/Player.cpp.obj.d"
   "C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Players/Warrior.cpp" "CMakeFiles/MTMCHKIN_HW4.dir/Players/Warrior.cpp.obj" "gcc" "CMakeFiles/MTMCHKIN_HW4.dir/Players/Warrior.cpp.obj.d"
-  "C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/test.cpp" "CMakeFiles/MTMCHKIN_HW4.dir/test.cpp.obj" "gcc" "CMakeFiles/MTMCHKIN_HW4.dir/test.cpp.obj.d"
+  "C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/main.cpp" "CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.obj" "gcc" "CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.obj.d"
   "C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/utilities.cpp" "CMakeFiles/MTMCHKIN_HW4.dir/utilities.cpp.obj" "gcc" "CMakeFiles/MTMCHKIN_HW4.dir/utilities.cpp.obj.d"
   )
 

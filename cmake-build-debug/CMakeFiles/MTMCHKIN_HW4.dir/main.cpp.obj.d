@@ -162,7 +162,7 @@ CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.obj: \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/atomic_lockfree_defines.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward/auto_ptr.h \
  C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Players/Player.h \
- C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/HealthPoints/HealthPoints.h \
+ C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/HealthPoints.h \
  C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Cards/Card.h \
  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Players/Player.h \
  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/utilities.h \

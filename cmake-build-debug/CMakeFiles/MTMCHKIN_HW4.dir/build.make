@@ -323,20 +323,20 @@ CMakeFiles/MTMCHKIN_HW4.dir/Mtmchkin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MTMCHKIN_HW4.dir/Mtmchkin.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\Mtmchkin.cpp -o CMakeFiles\MTMCHKIN_HW4.dir\Mtmchkin.cpp.s
 
-CMakeFiles/MTMCHKIN_HW4.dir/test.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/flags.make
-CMakeFiles/MTMCHKIN_HW4.dir/test.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/includes_CXX.rsp
-CMakeFiles/MTMCHKIN_HW4.dir/test.cpp.obj: C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/test.cpp
-CMakeFiles/MTMCHKIN_HW4.dir/test.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/MTMCHKIN_HW4.dir/test.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MTMCHKIN_HW4.dir/test.cpp.obj -MF CMakeFiles\MTMCHKIN_HW4.dir\test.cpp.obj.d -o CMakeFiles\MTMCHKIN_HW4.dir\test.cpp.obj -c C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\test.cpp
+CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/flags.make
+CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/includes_CXX.rsp
+CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.obj: C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/main.cpp
+CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.obj: CMakeFiles/MTMCHKIN_HW4.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.obj -MF CMakeFiles\MTMCHKIN_HW4.dir\main.cpp.obj.d -o CMakeFiles\MTMCHKIN_HW4.dir\main.cpp.obj -c C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\main.cpp
 
-CMakeFiles/MTMCHKIN_HW4.dir/test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MTMCHKIN_HW4.dir/test.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\test.cpp > CMakeFiles\MTMCHKIN_HW4.dir\test.cpp.i
+CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\main.cpp > CMakeFiles\MTMCHKIN_HW4.dir\main.cpp.i
 
-CMakeFiles/MTMCHKIN_HW4.dir/test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MTMCHKIN_HW4.dir/test.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\test.cpp -o CMakeFiles\MTMCHKIN_HW4.dir\test.cpp.s
+CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\allih\OneDrive\Documents\GitHub\MTMCHKIN_HW4\main.cpp -o CMakeFiles\MTMCHKIN_HW4.dir\main.cpp.s
 
 # Object files for target MTMCHKIN_HW4
 MTMCHKIN_HW4_OBJECTS = \
@@ -357,7 +357,7 @@ MTMCHKIN_HW4_OBJECTS = \
 "CMakeFiles/MTMCHKIN_HW4.dir/Cards/Barfight.cpp.obj" \
 "CMakeFiles/MTMCHKIN_HW4.dir/Cards/Mana.cpp.obj" \
 "CMakeFiles/MTMCHKIN_HW4.dir/Mtmchkin.cpp.obj" \
-"CMakeFiles/MTMCHKIN_HW4.dir/test.cpp.obj"
+"CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.obj"
 
 # External object files for target MTMCHKIN_HW4
 MTMCHKIN_HW4_EXTERNAL_OBJECTS =
@@ -379,7 +379,7 @@ MTMCHKIN_HW4.exe: CMakeFiles/MTMCHKIN_HW4.dir/Cards/Well.cpp.obj
 MTMCHKIN_HW4.exe: CMakeFiles/MTMCHKIN_HW4.dir/Cards/Barfight.cpp.obj
 MTMCHKIN_HW4.exe: CMakeFiles/MTMCHKIN_HW4.dir/Cards/Mana.cpp.obj
 MTMCHKIN_HW4.exe: CMakeFiles/MTMCHKIN_HW4.dir/Mtmchkin.cpp.obj
-MTMCHKIN_HW4.exe: CMakeFiles/MTMCHKIN_HW4.dir/test.cpp.obj
+MTMCHKIN_HW4.exe: CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.obj
 MTMCHKIN_HW4.exe: CMakeFiles/MTMCHKIN_HW4.dir/build.make
 MTMCHKIN_HW4.exe: CMakeFiles/MTMCHKIN_HW4.dir/linklibs.rsp
 MTMCHKIN_HW4.exe: CMakeFiles/MTMCHKIN_HW4.dir/objects1.rsp

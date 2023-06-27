@@ -240,35 +240,34 @@ int main() {
 //    run_test(nonMostersTest,"Non monsters cards simulation test");
 //    run_test(badFormatStartTest,"Bad format at start of file exception test");
 //
-        run_test(badFormatTest,"Bad format exception test");
+//        run_test(badFormatTest,"Bad format exception test");
 //
 //    run_test(noFileTest,"File Doesnt exist exception test");
 //    run_test(badSizeTest,"Bad size exception test");
 //    run_test(roundLimitTest,"Round upper limit test");
 //    run_test(allTenTest,"All reach lvl 10 test");
 //    run_test(badPlayerInputTest,"Bad player input test");
-//try{
-//    Mtmchkin game("deck.txt");
-//    while(!game.isGameOver() && game.getNumberOfRounds() != 100)
-//    {
-//        game.playRound();
-//        game.printLeaderBoard();
-//    }
-//
-//}catch (const Exception& e){
-//    cout << e.what() << endl;
-//}
-
-    std::ifstream file("stam.txt");
-    std::string line;
-    while (std::getline(file, line)) {
-        if (!line.empty()) {
-            // create a new card and add it to the deck
-            bool b = (line == "Witch");
-            cout << b << endl;
-            cout << line << endl;
-        }
+try{
+    Mtmchkin game("deck.txt");
+    while(!game.isGameOver() && game.getNumberOfRounds() != 100)
+    {
+        game.playRound();
+        game.printLeaderBoard();
     }
+}catch (const Exception& e){
+    cout << e.what() << endl;
+}
+
+//    std::ifstream file("stam.txt");
+//    std::string line;
+//    while (std::getline(file, line)) {
+//        if (!line.empty()) {
+//            // create a new card and add it to the deck
+//            bool b = (line == "Witch");
+//            cout << b << endl;
+//            cout << line << endl;
+//        }
+//    }
 
     return 0;
 }

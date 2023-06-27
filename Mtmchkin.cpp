@@ -1,19 +1,23 @@
 #include "Mtmchkin.h"
 #define SPACE ' '
 
-//int count(const string & str, char c){
-//    int count = 0;
-//    for(char ch : str){
-//        if(ch == c){
-//            count++;
-//        }
-//    }
-//    return count;
-//}
+int count(const string & str, char c){
+    int count = 0;
+    for(int i = 0; i < (int) str.size(); i++){
+        if(str[i] == c){
+            count++;
+            while(str[i] == c){
+                i++;
+            }
+        }
+    }
+    return count;
+}
 
 int isValid(const string & input){
     // use ust::stringstream to split the string into words
     // and put them in a vector
+    // check if the input is more than 2 words (return -1 if so)
     // check if the first word is a valid name (return 2 if not)
     // check if the second word is a valid class (return 3 if not)
     // if both are valid return 1
@@ -21,9 +25,9 @@ int isValid(const string & input){
     std::istringstream iss(input);
 
     // check if the input is more than 2 words
-//    if (count(input, SPACE) != 1) {
-//        return 2;  // Invalid input
-//    }
+    if (count(input, SPACE) != 1) {
+        return -1;  // Invalid input
+    }
 
 
     // split the input into 2 words and print them
@@ -37,7 +41,10 @@ int isValid(const string & input){
                     return 2;  // Invalid name
                 }
             }
-            type = input.substr(i+1, input.size());
+            while(input[i] == SPACE){
+                i++;
+            }
+            type = input.substr(i, input.size());
             break;
         }
     }
@@ -135,7 +142,9 @@ Mtmchkin::Mtmchkin(const std::string &fileName) {
         // check weather the name and class are valid (returns 1 if valid, 2 if the player's name is invalid, 3 if the player's class is invalid)
         int flag = isValid(name);
         while(flag != 1){ //
-            if(flag == 2){
+            if(flag == -1) {
+                printInvalidInput();
+            }else if(flag == 2){
                 printInvalidName();
             }else {
                 printInvalidClass();
@@ -149,7 +158,10 @@ Mtmchkin::Mtmchkin(const std::string &fileName) {
         for(int e = 0; i < (int) name.size(); e++){
             if(name[e] == SPACE){
                 tempName = name.substr(0, e);
-                tempType = name.substr(e+1, name.size());
+                while(name[e] == SPACE){
+                    e++;
+                }
+                tempType = name.substr(e, name.size());
                 break;
             }
         }

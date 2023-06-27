@@ -137,7 +137,7 @@ CMakeFiles/MTMCHKIN_HW4.dir/Cards/Barfight.cpp.obj: C:/Users/allih/OneDrive/Docu
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
-  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/HealthPoints/HealthPoints.h \
+  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/HealthPoints.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/utilities.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstring \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/x86_64-w64-mingw32/include/string.h \
@@ -291,7 +291,7 @@ CMakeFiles/MTMCHKIN_HW4.dir/Cards/BattleCard.cpp.obj: C:/Users/allih/OneDrive/Do
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
-  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/HealthPoints/HealthPoints.h \
+  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/HealthPoints.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/utilities.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstring \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/x86_64-w64-mingw32/include/string.h \
@@ -444,7 +444,7 @@ CMakeFiles/MTMCHKIN_HW4.dir/Cards/Card.cpp.obj: C:/Users/allih/OneDrive/Document
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
-  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/HealthPoints/HealthPoints.h \
+  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/HealthPoints.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/utilities.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstring \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/x86_64-w64-mingw32/include/string.h \
@@ -599,7 +599,7 @@ CMakeFiles/MTMCHKIN_HW4.dir/Cards/Dragon.cpp.obj: C:/Users/allih/OneDrive/Docume
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
-  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/HealthPoints/HealthPoints.h \
+  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/HealthPoints.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/utilities.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstring \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/x86_64-w64-mingw32/include/string.h \
@@ -754,7 +754,7 @@ CMakeFiles/MTMCHKIN_HW4.dir/Cards/Gremlin.cpp.obj: C:/Users/allih/OneDrive/Docum
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
-  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/HealthPoints/HealthPoints.h \
+  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/HealthPoints.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/utilities.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstring \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/x86_64-w64-mingw32/include/string.h \
@@ -908,7 +908,7 @@ CMakeFiles/MTMCHKIN_HW4.dir/Cards/Mana.cpp.obj: C:/Users/allih/OneDrive/Document
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
-  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/HealthPoints/HealthPoints.h \
+  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/HealthPoints.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/utilities.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstring \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/x86_64-w64-mingw32/include/string.h \
@@ -1062,7 +1062,7 @@ CMakeFiles/MTMCHKIN_HW4.dir/Cards/Merchant.cpp.obj: C:/Users/allih/OneDrive/Docu
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
-  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/HealthPoints/HealthPoints.h \
+  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/HealthPoints.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/utilities.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstring \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/x86_64-w64-mingw32/include/string.h \
@@ -1216,7 +1216,7 @@ CMakeFiles/MTMCHKIN_HW4.dir/Cards/Treasure.cpp.obj: C:/Users/allih/OneDrive/Docu
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
-  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/HealthPoints/HealthPoints.h \
+  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/HealthPoints.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/utilities.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstring \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/x86_64-w64-mingw32/include/string.h \
@@ -1370,7 +1370,7 @@ CMakeFiles/MTMCHKIN_HW4.dir/Cards/Well.cpp.obj: C:/Users/allih/OneDrive/Document
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
-  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/HealthPoints/HealthPoints.h \
+  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/HealthPoints.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/utilities.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstring \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/x86_64-w64-mingw32/include/string.h \
@@ -1525,7 +1525,7 @@ CMakeFiles/MTMCHKIN_HW4.dir/Cards/Witch.cpp.obj: C:/Users/allih/OneDrive/Documen
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
-  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/HealthPoints/HealthPoints.h \
+  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/HealthPoints.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/utilities.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstring \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/x86_64-w64-mingw32/include/string.h \
@@ -1819,7 +1819,7 @@ CMakeFiles/MTMCHKIN_HW4.dir/Mtmchkin.cpp.obj: C:/Users/allih/OneDrive/Documents/
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
-  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/HealthPoints/HealthPoints.h \
+  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/HealthPoints.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/utilities.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstring \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/x86_64-w64-mingw32/include/string.h \
@@ -2010,7 +2010,7 @@ CMakeFiles/MTMCHKIN_HW4.dir/Players/Healer.cpp.obj: C:/Users/allih/OneDrive/Docu
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
-  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/HealthPoints/HealthPoints.h \
+  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/HealthPoints.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/utilities.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstring \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/x86_64-w64-mingw32/include/string.h \
@@ -2163,7 +2163,7 @@ CMakeFiles/MTMCHKIN_HW4.dir/Players/Ninja.cpp.obj: C:/Users/allih/OneDrive/Docum
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
-  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/HealthPoints/HealthPoints.h \
+  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/HealthPoints.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/utilities.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstring \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/x86_64-w64-mingw32/include/string.h \
@@ -2315,7 +2315,7 @@ CMakeFiles/MTMCHKIN_HW4.dir/Players/Player.cpp.obj: C:/Users/allih/OneDrive/Docu
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
-  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/HealthPoints/HealthPoints.h \
+  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/HealthPoints.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/utilities.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstring \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/x86_64-w64-mingw32/include/string.h \
@@ -2468,7 +2468,7 @@ CMakeFiles/MTMCHKIN_HW4.dir/Players/Warrior.cpp.obj: C:/Users/allih/OneDrive/Doc
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
-  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/HealthPoints/HealthPoints.h \
+  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/HealthPoints.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/utilities.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstring \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/x86_64-w64-mingw32/include/string.h \
@@ -2486,7 +2486,7 @@ CMakeFiles/MTMCHKIN_HW4.dir/Players/Warrior.cpp.obj: C:/Users/allih/OneDrive/Doc
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_function.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Players/Player.h
 
-CMakeFiles/MTMCHKIN_HW4.dir/test.cpp.obj: C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/test.cpp \
+CMakeFiles/MTMCHKIN_HW4.dir/main.cpp.obj: C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/main.cpp \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/functional \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
@@ -2649,7 +2649,7 @@ CMakeFiles/MTMCHKIN_HW4.dir/test.cpp.obj: C:/Users/allih/OneDrive/Documents/GitH
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/atomic_lockfree_defines.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward/auto_ptr.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Players/Player.h \
-  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/HealthPoints/HealthPoints.h \
+  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/HealthPoints.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Card.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Players/Player.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/utilities.h \
@@ -2846,7 +2846,7 @@ CMakeFiles/MTMCHKIN_HW4.dir/utilities.cpp.obj: C:/Users/allih/OneDrive/Documents
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/refwrap.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_function.h \
   C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Players/Player.h \
-  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/HealthPoints/HealthPoints.h
+  C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/HealthPoints.h
 
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc:
@@ -3161,9 +3161,7 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream:
 
-C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/BattleCard.cpp:
-
-C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/HealthPoints/HealthPoints.h:
+C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/HealthPoints.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstring:
 
@@ -3193,6 +3191,8 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_function.h:
 
+C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/BattleCard.cpp:
+
 C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/BattleCard.h:
 
 C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Card.cpp:
@@ -3212,8 +3212,6 @@ C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Treasure.h:
 C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Well.cpp:
 
 C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Cards/Well.h:
-
-C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/HealthPoints.h:
 
 C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Mtmchkin.cpp:
 
@@ -3271,7 +3269,7 @@ C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Players/Player.cpp:
 
 C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/Players/Warrior.cpp:
 
-C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/test.cpp:
+C:/Users/allih/OneDrive/Documents/GitHub/MTMCHKIN_HW4/main.cpp:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/algorithm:
 
